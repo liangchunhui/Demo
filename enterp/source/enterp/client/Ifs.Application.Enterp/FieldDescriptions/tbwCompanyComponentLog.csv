@@ -1,0 +1,16 @@
+colsCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the company.\par
+}"
+colsModule;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Name of the component that the file type is associated with.\par
+}"
+colsStatus;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field displays the status of the component after the company is created or updated. The status can be one of the following: \par
+\par
+\pard{\pntext\f0\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-220\li500 Create Started\par
+{\pntext\f0\'B7\tab}Created Successfully\par
+{\pntext\f0\'B7\tab}Created With Errors\par
+{\pntext\f0\'B7\tab}Created With Comments\par
+{\pntext\f0\'B7\tab}Update Started\par
+{\pntext\f0\'B7\tab}Updated Successfully\par
+{\pntext\f0\'B7\tab}Updated With Errors\par
+{\pntext\f0\'B7\tab}Updated With Comments\par
+{\pntext\f0\'B7\tab}Error (old status that may appear for old companies after an upgrade)\par
+}"

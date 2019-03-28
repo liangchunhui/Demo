@@ -1,0 +1,19 @@
+colPersonalDataConsentHistory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 I\f0 nforms that purposes for personal data processing have been updated.\f0\par
+}"
+colsDataSubject;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Business Object in IFS Applications classified as a possible "Data Subject" (according to Personal Data Protection legislation). Data Subjects are natural persons who can be identified, directly or indirectly, by ID, location online identifier or one or more physical factors (physical, physiological, genetic, mental, economic, cultural, or social identity).\f0\par
+}"
+colsDataSubjectDb;UNUSED;""
+colsDataSubjectId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 T\f0 he i\f0 dentifier of the data subject.\par
+}"
+colsDataSubjectName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the data subject.\f0\par
+}"
+colsDataSubjectPart1;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 When Data Subject ID consists of 2 other IDs, this field shows the first of its IDs. Otherwise it will be the same as Data Subject ID.\f0\par
+}"
+colsDataSubjectPart2;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 When Data Subject ID consists of 2 other IDs, this field shows the \f0 second\f0  of its IDs\f0 .\f0\par
+}"
+colsDataSubPart1Desc;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Describes what the first part of the Data Subject ID is, e.g, Company, Person ID, Customer ID\par
+}"
+colsDataSubPart2Desc;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Describes what the \f0 second\f0  part of the Data Subject ID is, e.g, \f0 Employee ID, Contact ID.\f0\par
+}"
+colValidDataProcessingPurpose;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , there is a valid purpose to store and process personal data of the Data Subject (a person whose data is stored in the application).\f0\par
+}"

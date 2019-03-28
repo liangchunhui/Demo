@@ -1,0 +1,27 @@
+cChildTableDetail_coldTimestamp;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date and time at which the action was performed.\par
+}"
+cChildTableDetail_colnLogId;UNUSED;""
+cChildTableDetail_colsCompanyName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name or description of the company.\par
+}"
+cChildTableDetail_colsMessageText;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This column displays any error messages.\par
+}"
+cChildTableDetail_colsStatus;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The status of the action. Possible values are:\par
+\bullet  \b Created:\b0  Selected data was created successfully\par
+\bullet  \b Modified:\b0  Selected data was modified\par
+\bullet  \b Removed:\b0  Selected data was removed\par
+\pard{\pntext\f0\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\b Error:\b0  Selected data was not created successfully\f0\par
+}"
+cChildTableDetail_colsTargetCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The company which the data is copied or updated to.\f0\par
+}"
+cChildTableDetail_colsValue;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field displays the selected value to be copied or updated.\f0\par
+}"
+labelCompanyName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Name or description of the source company.\par
+}"
+labelLogId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The unique ID identifying the log.\par
+}"
+labelSourceCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The source company of which the data is copied from.\f0\par
+}"
+labelUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the user who performed the action.\par
+}"
+labelWindowName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the client window.\par
+}"

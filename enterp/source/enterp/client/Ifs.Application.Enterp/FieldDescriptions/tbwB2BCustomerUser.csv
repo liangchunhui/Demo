@@ -1,0 +1,10 @@
+colsCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the B2B Customer. Select a value from the List of Values. \par
+}"
+colsCustomerInfo_GetName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Name of the B2B Customer. The value is automatically retrieved when the customer identification is selected.\par
+}"
+colsDefaultCustomer;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is the user's default B2B Customer.\par
+}"
+colsFndUser_GetDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the selected User.\par
+}"
+colsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the B2B User. This is the same identity that the user requires to log into IFS Applications. Select a value from List of Values.\par
+}"

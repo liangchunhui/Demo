@@ -1,0 +1,20 @@
+colnInternalIncomeType;UNUSED;""
+colnThresholdAmount;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The minimum annual amount of payments to a supplier for which U.S. tax reporting is required. You can define a different threshold amount for each income type. If the total annual amount of payments to a given supplier exceeds the threshold amount, or if any amount was withheld for federal or state income taxes, then this amount must be reported to the IRS and/or state tax authority on Form 1099-MISC. The threshold amounts are subject to change based on changes in U.S. tax law.\par
+}"
+colsBlocked;UNUSED;""
+colsCountryCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Select the appropriate country code through List of Values.\par
+}"
+colsCurrencyCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The code representing the currency in which the specified threshold amount is expressed. The income types allowed for a certain supplier are those where the currency corresponds with the accounting currency of the company for which the supplier is defined.\par
+}"
+colsDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The description of the specified income type. You can edit this description.\par
+}"
+colsIncomeReportingCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The report code for which you defining a value. The system automatically creates five report codes for Argentinean companies. If you do not assign customized internal names to these codes, they will be listed as Report Code 1, Report Code 2, Report Code 3, etc. If you do specify custom internal names (in the \b\i\f0 Tax \f0 Report Codes \f0 for Argentina\b0\i0  \f0 window), the internal names you assigned will be listed here. You cannot change the report code names in this window.\par
+}"
+colsIncomeTypeId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID for each category of income used for tax reporting and/or withholding.\f0\par
+}"
+colsTaxWithholdCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Select an option from the list to specify whether a tax code is mandatory for the income type.\par
+\par
+\b Optional\b0  - In the \b\i Tax Withholding/Reporting\b0\i0  window, connecting a tax code to the income type is optional.\par
+\par
+\b Mandatory\b0  - In the \b\i Tax Withholding/Reporting\b0\i0  window,  it is mandatory to connect a tax code to the income type.\f0\par
+}"

@@ -1,0 +1,10 @@
+labeldfsTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+labelFirstName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The person's first name.\par
+}"
+labelInitials;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The \f0 p\f0 erson's initials.\par
+}"
+labelLastName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The person's last name.\par
+}"
+labelMiddleName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The person's middle name.\par
+}"

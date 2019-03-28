@@ -1,0 +1,56 @@
+cbDefaultDomain;UNUSED;""
+cbWithinCityLimit;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected, the company is located inside the city limits. This means that city sales tax is calculated on tax lines for customer orders, customer order invoices, sales quotations and return material authorizations. If this check box is unselected, the company is located outside the city limits, and no city sales tax is calculated. This check box applies only when\f0  Vertex Sales Tax Q Series \f0 i\f0 s\f0  used to calculate taxes.\par
+}"
+labelAddress3;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window. \f0\par
+\par
+}"
+labelAddress4;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+\par
+}"
+labelAddress5;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+}"
+labelAddress6;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+}"
+labelamlAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The display of the address.To add an address or edit an existing contents of this field, click the Edit Address icon to the right of the field. The country selected in the Country field determines how the address displays in this field as well as which address fields are available to you in the \b\i Address\b0\i0  edit window. If a State field is available in the address editing window, you can enter the state name or abbreviation directly into this field or select a state code from the List of Values. The State Codes are defined in \b\i States\b0\i0  window.\par
+}"
+labelcmbAddressId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this field, enter the identity of an address. The length of this identity depends on what has been entered in the \b\i System \f0 LU Values\f0 /Attribute Definition\b0\i0  function. In that function, you can specify the length of the identity up to a maximum of 50 characters. You are allowed to enter more than one address, i.e. several address identities. It is possible to connect each address identity to one or more address types. You cannot change the address identity after saving.\par
+}"
+labelcmbCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate country from the drop down list. The country you choose  has no practical meaning in the Enterprise component. It is only dependent on how other installed modules utilize it. The IFS/Accounting Rules component is one example. Some posting types can be governed depending on the choice of country. The available countries are those marked as Used in Application in the \b\i ISO Cod\f0 e Usage\f0 /Country\b0\i0  tab. Contact your System Administrator if a country you want to use is not visible. It is possible to change the country after saving.\par
+}"
+labeldfdValidFrom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date from which this address should be valid. Note that different components within IFS Applications handle the validity interval in different ways, i.e., you may not be prevented from using the address even if the system date is outside the specified interval.\par
+}"
+labeldfdValidTo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date to which this address should be valid.\par
+}"
+labeldfsAddress1;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The first line of the address.\par
+}"
+labeldfsAddress2;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The second line of the address. Extra address field.\par
+}"
+labeldfsCity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the city part of the address. You can edit the information once you have saved the record.\par
+}"
+labeldfsCountryCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this field you can enter country codes. The countries you can select depend on what countries are defined to be used in the application in the \b\i\f0 I\f0 SO Code \f0 Usage\b0\f0 /\b Country\b0\i0  function within the Application Services component. Contact your System Administrator if you need to use additional countries.\par
+}"
+labeldfsCounty;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The county connected to the address.\f0\par
+}"
+labeldfsEanLocation;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is the company's own ID for an address (sometimes referred to as EAN). This field provides a possibility to recognize addresses between sites and companies in an EDI communication as well as in the inter-site order communication. In other words, when an incoming message is received, this ID identifies whether an address is a known address or a single occurrence address. When entering the site's address, be sure this ID is identical to the ID entered for the internal customer's address on the \b\i Customer/Address\b0\i0  tab.\par
+}"
+labeldfsState;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The state used for the address.\par
+}"
+labeldfsZipCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the ZIP code of the address, if applicable.\par
+}"
+labelJurisdictionCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 When you save an address (i.e. you are creating a new address or updating an existing one) for a company, the values in \b City\b0 , \b State\b0 , \b Zip Code\b0  and \b County\b0  fields are sent to the external tax system. In return, we get a code representing these values to IFS Applications. This code, known as the jurisdiction code, is saved in this field. The jurisdiction code is retrieved only when you save a company address and an external tax system is installed. The jurisdiction code is used in U.S. and Canada for determing tax rates. \par
+}"
+labeltblCommMethod;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The type of communication that you want to connect to an address ID.\par
+
+}"
+tblAddressType_colDefAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected this address will be used as the default address for the corresponding address type. The default address is automatically used in instances where no specific address ID is stated for the specific address type. The same address can be used as default for different address types. An address type can have more than one address as default as long as the valid from/valid to dates for the addresses do not overlap. This field can be edited after the record is saved.\f0\par
+ \par
+}"
+tblAddressType_colDefaultDomain;UNUSED;""
+tblAddressType_colsAddressId;UNUSED;""
+tblAddressType_colsAddressTypeCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The address type that you want to connect to the specified address. These address types are different for different party types. You can view the address types from \b\i Object Property\b0\i0  tab in the Application Base Setup/System Setup/\b\i System Definitions\b0\i0  window. The \b Property Name\b0  VALID_ADDR in the \b\i System Definitions\b0\i0  window is used to define the address types. You can modify the property values by selected system defined address types.\par
+\par
+If you want to connect the same address to multiple address types, enter all those address types in this field. You can have multiple addresses connected to one address type for a party type. Note that only one of them can be specified as a default address. You cannot edit this column, but you can remove and insert pre-defined address types.\f0\par
+}"
+tblAddressType_colsAddressTypeCodeDb;UNUSED;""
+tblAddressType_colsCompany;UNUSED;""
+tblAddressType_colsParty;UNUSED;""

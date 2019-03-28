@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;_cTabManager.Name" xml:space="preserve">
+    <value>_cTabManager</value>
+  </data>
+  <data name="&gt;&gt;_cTabManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cTabManager, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 47, 5, 5</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 387</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picTab.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="picTab.TabSetup" xml:space="preserve">
+    <value>{Name=Name0;Label=General Address Info}</value>
+  </data>
+  <data name="&gt;&gt;picTab.Name" xml:space="preserve">
+    <value>picTab</value>
+  </data>
+  <data name="&gt;&gt;picTab.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.QO.SalQuickTabs, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;picTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picTab.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <metadata name="commandManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;tblCommMethod.colAddressDefault.Name" xml:space="preserve">
+    <value>tblCommMethod.colAddressDefault</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colAddressDefault.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colAddressDefault.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colAddressDefault.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidFrom.Name" xml:space="preserve">
+    <value>tblCommMethod.coldValidFrom</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidFrom.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidFrom.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidFrom.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidTo.Name" xml:space="preserve">
+    <value>tblCommMethod.coldValidTo</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidTo.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidTo.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.coldValidTo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colMethodDefault.Name" xml:space="preserve">
+    <value>tblCommMethod.colMethodDefault</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colMethodDefault.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colMethodDefault.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colMethodDefault.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colnCommId.Name" xml:space="preserve">
+    <value>tblCommMethod.colnCommId</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colnCommId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colnCommId.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colnCommId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tblCommMethod.colsAddressId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsAddressId.Name" xml:space="preserve">
+    <value>tblCommMethod.colsAddressId</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsAddressId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsAddressId.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsAddressId.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsDescription.Name" xml:space="preserve">
+    <value>tblCommMethod.colsDescription</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsDescription.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsDescription.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsDescription.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsIdentity.Name" xml:space="preserve">
+    <value>tblCommMethod.colsIdentity</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsIdentity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsIdentity.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsIdentity.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsMethodId.Name" xml:space="preserve">
+    <value>tblCommMethod.colsMethodId</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsMethodId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cLookupColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsMethodId.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsMethodId.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsName.Name" xml:space="preserve">
+    <value>tblCommMethod.colsName</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsName.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyType.Name" xml:space="preserve">
+    <value>tblCommMethod.colsPartyType</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyType.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyType.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyTypeDb.Name" xml:space="preserve">
+    <value>tblCommMethod.colsPartyTypeDb</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyTypeDb.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyTypeDb.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPartyTypeDb.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPrevAddrId.Name" xml:space="preserve">
+    <value>tblCommMethod.colsPrevAddrId</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPrevAddrId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPrevAddrId.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsPrevAddrId.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsValue.Name" xml:space="preserve">
+    <value>tblCommMethod.colsValue</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsValue.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsValue.Parent" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.colsValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tblCommMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="tblCommMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 96</value>
+  </data>
+  <data name="tblCommMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.Name" xml:space="preserve">
+    <value>tblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.Type" xml:space="preserve">
+    <value>Ifs.Application.Enterp.cChildTableCommMethod, Ifs.Application.Enterp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblCommMethod.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="dfsManufacturerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 23</value>
+  </data>
+  <data name="dfsManufacturerId.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dfsManufacturerId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dfsManufacturerId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsManufacturerId.Name" xml:space="preserve">
+    <value>dfsManufacturerId</value>
+  </data>
+  <data name="&gt;&gt;dfsManufacturerId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsManufacturerId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsManufacturerId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelcmbAddressId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcmbAddressId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 8</value>
+  </data>
+  <data name="labelcmbAddressId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="labelcmbAddressId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelcmbAddressId.Text" xml:space="preserve">
+    <value>Address Identity:</value>
+  </data>
+  <data name="&gt;&gt;labelcmbAddressId.Name" xml:space="preserve">
+    <value>labelcmbAddressId</value>
+  </data>
+  <data name="&gt;&gt;labelcmbAddressId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelcmbAddressId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelcmbAddressId.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="cmbAddressId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 5</value>
+  </data>
+  <data name="cmbAddressId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 21</value>
+  </data>
+  <data name="cmbAddressId.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbAddressId.Name" xml:space="preserve">
+    <value>cmbAddressId</value>
+  </data>
+  <data name="&gt;&gt;cmbAddressId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cRecSelExtComboBox, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbAddressId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbAddressId.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labeldfsEanLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsEanLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 8</value>
+  </data>
+  <data name="labeldfsEanLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 13</value>
+  </data>
+  <data name="labeldfsEanLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labeldfsEanLocation.Text" xml:space="preserve">
+    <value>Manufacturer's Own Address Id:</value>
+  </data>
+  <data name="&gt;&gt;labeldfsEanLocation.Name" xml:space="preserve">
+    <value>labeldfsEanLocation</value>
+  </data>
+  <data name="&gt;&gt;labeldfsEanLocation.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsEanLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsEanLocation.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="dfsEanLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 5</value>
+  </data>
+  <data name="dfsEanLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 21</value>
+  </data>
+  <data name="dfsEanLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dfsEanLocation.Name" xml:space="preserve">
+    <value>dfsEanLocation</value>
+  </data>
+  <data name="&gt;&gt;dfsEanLocation.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsEanLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsEanLocation.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="labelcmbCountry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 84</value>
+  </data>
+  <data name="labelcmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="labelcmbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelcmbCountry.Text" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Name" xml:space="preserve">
+    <value>labelcmbCountry</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="cmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 101</value>
+  </data>
+  <data name="cmbCountry.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="cmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 21</value>
+  </data>
+  <data name="cmbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Name" xml:space="preserve">
+    <value>cmbCountry</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cComboBox, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelamlAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelamlAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 126</value>
+  </data>
+  <data name="labelamlAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="labelamlAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelamlAddress.Text" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="&gt;&gt;labelamlAddress.Name" xml:space="preserve">
+    <value>labelamlAddress</value>
+  </data>
+  <data name="&gt;&gt;labelamlAddress.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelamlAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelamlAddress.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="amlAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 143</value>
+  </data>
+  <data name="amlAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 113</value>
+  </data>
+  <data name="amlAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;amlAddress.Name" xml:space="preserve">
+    <value>amlAddress</value>
+  </data>
+  <data name="&gt;&gt;amlAddress.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cAddressMultilineField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;amlAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;amlAddress.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="labeldfdValidFrom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfdValidFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 218</value>
+  </data>
+  <data name="labeldfdValidFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="labeldfdValidFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labeldfdValidFrom.Text" xml:space="preserve">
+    <value>Valid From:</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidFrom.Name" xml:space="preserve">
+    <value>labeldfdValidFrom</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidFrom.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidFrom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidFrom.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="dfdValidFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 235</value>
+  </data>
+  <data name="dfdValidFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="dfdValidFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dfdValidFrom.Name" xml:space="preserve">
+    <value>dfdValidFrom</value>
+  </data>
+  <data name="&gt;&gt;dfdValidFrom.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfdValidFrom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfdValidFrom.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="labeldfdValidTo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfdValidTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 218</value>
+  </data>
+  <data name="labeldfdValidTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="labeldfdValidTo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labeldfdValidTo.Text" xml:space="preserve">
+    <value>Valid To:</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidTo.Name" xml:space="preserve">
+    <value>labeldfdValidTo</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidTo.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfdValidTo.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="dfdValidTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 235</value>
+  </data>
+  <data name="dfdValidTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="dfdValidTo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dfdValidTo.Name" xml:space="preserve">
+    <value>dfdValidTo</value>
+  </data>
+  <data name="&gt;&gt;dfdValidTo.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfdValidTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfdValidTo.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cbDefaultDomain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 262</value>
+  </data>
+  <data name="cbDefaultDomain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="cbDefaultDomain.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbDefaultDomain.Text" xml:space="preserve">
+    <value>Default Domain</value>
+  </data>
+  <data name="cbDefaultDomain.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultDomain.Name" xml:space="preserve">
+    <value>cbDefaultDomain</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultDomain.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBox, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultDomain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultDomain.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cmbPartyType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 252</value>
+  </data>
+  <data name="cmbPartyType.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="cmbPartyType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="cmbPartyType.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cmbPartyType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbPartyType.Name" xml:space="preserve">
+    <value>cmbPartyType</value>
+  </data>
+  <data name="&gt;&gt;cmbPartyType.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cComboBox, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbPartyType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbPartyType.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="dfsParty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 218</value>
+  </data>
+  <data name="dfsParty.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dfsParty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="dfsParty.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="dfsParty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsParty.Name" xml:space="preserve">
+    <value>dfsParty</value>
+  </data>
+  <data name="&gt;&gt;dfsParty.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsParty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsParty.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labeldfsAddress1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsAddress1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsAddress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labeldfsAddress1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labeldfsAddress1.Text" xml:space="preserve">
+    <value>Address 1:</value>
+  </data>
+  <data name="labeldfsAddress1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress1.Name" xml:space="preserve">
+    <value>labeldfsAddress1</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress1.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="dfsAddress1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress1.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsAddress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsAddress1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dfsAddress1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress1.Name" xml:space="preserve">
+    <value>dfsAddress1</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress1.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labeldfsAddress2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsAddress2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsAddress2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labeldfsAddress2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labeldfsAddress2.Text" xml:space="preserve">
+    <value>Address 2:</value>
+  </data>
+  <data name="labeldfsAddress2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress2.Name" xml:space="preserve">
+    <value>labeldfsAddress2</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress2.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsAddress2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="dfsAddress2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress2.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsAddress2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsAddress2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="dfsAddress2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress2.Name" xml:space="preserve">
+    <value>dfsAddress2</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress2.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labeldfsZipCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsZipCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsZipCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="labeldfsZipCode.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="labeldfsZipCode.Text" xml:space="preserve">
+    <value>Zip Code:</value>
+  </data>
+  <data name="labeldfsZipCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsZipCode.Name" xml:space="preserve">
+    <value>labeldfsZipCode</value>
+  </data>
+  <data name="&gt;&gt;labeldfsZipCode.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsZipCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsZipCode.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="dfsZipCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsZipCode.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsZipCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsZipCode.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="dfsZipCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsZipCode.Name" xml:space="preserve">
+    <value>dfsZipCode</value>
+  </data>
+  <data name="&gt;&gt;dfsZipCode.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsZipCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsZipCode.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labeldfsCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labeldfsCity.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="labeldfsCity.Text" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="labeldfsCity.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCity.Name" xml:space="preserve">
+    <value>labeldfsCity</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCity.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="dfsCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsCity.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsCity.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="dfsCity.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsCity.Name" xml:space="preserve">
+    <value>dfsCity</value>
+  </data>
+  <data name="&gt;&gt;dfsCity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsCity.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labeldfsCounty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsCounty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsCounty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="labeldfsCounty.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labeldfsCounty.Text" xml:space="preserve">
+    <value>County:</value>
+  </data>
+  <data name="labeldfsCounty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCounty.Name" xml:space="preserve">
+    <value>labeldfsCounty</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCounty.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCounty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCounty.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="dfsCounty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsCounty.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsCounty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsCounty.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="dfsCounty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsCounty.Name" xml:space="preserve">
+    <value>dfsCounty</value>
+  </data>
+  <data name="&gt;&gt;dfsCounty.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsCounty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsCounty.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labeldfsState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="labeldfsState.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="labeldfsState.Text" xml:space="preserve">
+    <value>State:</value>
+  </data>
+  <data name="labeldfsState.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsState.Name" xml:space="preserve">
+    <value>labeldfsState</value>
+  </data>
+  <data name="&gt;&gt;labeldfsState.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsState.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="dfsState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsState.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsState.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="dfsState.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsState.Name" xml:space="preserve">
+    <value>dfsState</value>
+  </data>
+  <data name="&gt;&gt;dfsState.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsState.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labeldfsCountryCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsCountryCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-123, -168</value>
+  </data>
+  <data name="labeldfsCountryCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="labeldfsCountryCode.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="labeldfsCountryCode.Text" xml:space="preserve">
+    <value>Country Code:</value>
+  </data>
+  <data name="labeldfsCountryCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCountryCode.Name" xml:space="preserve">
+    <value>labeldfsCountryCode</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCountryCode.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCountryCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsCountryCode.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="dfsCountryCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsCountryCode.MaxLength" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dfsCountryCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="dfsCountryCode.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="dfsCountryCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsCountryCode.Name" xml:space="preserve">
+    <value>dfsCountryCode</value>
+  </data>
+  <data name="&gt;&gt;dfsCountryCode.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsCountryCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsCountryCode.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tblAddressType_colsManufacturerId.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tblAddressType_colsManufacturerId.Title" xml:space="preserve">
+    <value>Manufacturer Id</value>
+  </data>
+  <data name="tblAddressType_colsManufacturerId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsManufacturerId.Name" xml:space="preserve">
+    <value>tblAddressType_colsManufacturerId</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsManufacturerId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsManufacturerId.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsManufacturerId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblAddressType_colsAddressId.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tblAddressType_colsAddressId.Title" xml:space="preserve">
+    <value>Comp Address Id</value>
+  </data>
+  <data name="tblAddressType_colsAddressId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressId.Name" xml:space="preserve">
+    <value>tblAddressType_colsAddressId</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressId.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressId.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblAddressType_colsAddressTypeCode.Title" xml:space="preserve">
+    <value>Address Type</value>
+  </data>
+  <data name="tblAddressType_colsAddressTypeCode.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCode.Name" xml:space="preserve">
+    <value>tblAddressType_colsAddressTypeCode</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCode.Type" xml:space="preserve">
+    <value>Ifs.Application.Enterp.cLookupColumnTypeCode, Ifs.Application.Enterp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCode.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tblAddressType_colsAddressTypeCodeDb.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tblAddressType_colsAddressTypeCodeDb.Title" xml:space="preserve">
+    <value>Comp Address Id</value>
+  </data>
+  <data name="tblAddressType_colsAddressTypeCodeDb.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCodeDb.Name" xml:space="preserve">
+    <value>tblAddressType_colsAddressTypeCodeDb</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCodeDb.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCodeDb.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsAddressTypeCodeDb.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tblAddressType_colDefAddress.Title" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="tblAddressType_colDefAddress.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefAddress.Name" xml:space="preserve">
+    <value>tblAddressType_colDefAddress</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefAddress.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefAddress.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefAddress.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tblAddressType_colsParty.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tblAddressType_colsParty.Title" xml:space="preserve">
+    <value>Party</value>
+  </data>
+  <data name="tblAddressType_colsParty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsParty.Name" xml:space="preserve">
+    <value>tblAddressType_colsParty</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsParty.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsParty.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colsParty.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tblAddressType_colDefaultDomain.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tblAddressType_colDefaultDomain.Title" xml:space="preserve">
+    <value>Default Domain</value>
+  </data>
+  <data name="tblAddressType_colDefaultDomain.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefaultDomain.Name" xml:space="preserve">
+    <value>tblAddressType_colDefaultDomain</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefaultDomain.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefaultDomain.Parent" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType_colDefaultDomain.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tblAddressType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 84</value>
+  </data>
+  <data name="tblAddressType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 120</value>
+  </data>
+  <data name="tblAddressType.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType.Name" xml:space="preserve">
+    <value>tblAddressType</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType.Type" xml:space="preserve">
+    <value>Ifs.Application.Enterp.cChildTableOnTab, Ifs.Application.Enterp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblAddressType.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labeltblCommMethod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeltblCommMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 260</value>
+  </data>
+  <data name="labeltblCommMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="labeltblCommMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="labeltblCommMethod.Text" xml:space="preserve">
+    <value>Comm Method:</value>
+  </data>
+  <data name="&gt;&gt;labeltblCommMethod.Name" xml:space="preserve">
+    <value>labeltblCommMethod</value>
+  </data>
+  <data name="&gt;&gt;labeltblCommMethod.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeltblCommMethod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeltblCommMethod.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dfsAddress3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress3.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="dfsAddress3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress3.Name" xml:space="preserve">
+    <value>dfsAddress3</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress3.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelAddress3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="labelAddress3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelAddress3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelAddress3.Text" xml:space="preserve">
+    <value>Address 3:</value>
+  </data>
+  <data name="labelAddress3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelAddress3.Name" xml:space="preserve">
+    <value>labelAddress3</value>
+  </data>
+  <data name="&gt;&gt;labelAddress3.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelAddress3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dfsAddress4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="dfsAddress4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress4.Name" xml:space="preserve">
+    <value>dfsAddress4</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress4.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelAddress4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="labelAddress4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelAddress4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="labelAddress4.Text" xml:space="preserve">
+    <value>Address 4:</value>
+  </data>
+  <data name="labelAddress4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelAddress4.Name" xml:space="preserve">
+    <value>labelAddress4</value>
+  </data>
+  <data name="&gt;&gt;labelAddress4.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelAddress4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dfsAddress5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress5.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="dfsAddress5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress5.Name" xml:space="preserve">
+    <value>dfsAddress5</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress5.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelAddress5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="labelAddress5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelAddress5.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="labelAddress5.Text" xml:space="preserve">
+    <value>Address 5:</value>
+  </data>
+  <data name="labelAddress5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelAddress5.Name" xml:space="preserve">
+    <value>labelAddress5</value>
+  </data>
+  <data name="&gt;&gt;labelAddress5.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelAddress5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dfsAddress6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="dfsAddress6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dfsAddress6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress6.Name" xml:space="preserve">
+    <value>dfsAddress6</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress6.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsAddress6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelAddress6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-120, -168</value>
+  </data>
+  <data name="labelAddress6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelAddress6.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="labelAddress6.Text" xml:space="preserve">
+    <value>Address 6:</value>
+  </data>
+  <data name="labelAddress6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelAddress6.Name" xml:space="preserve">
+    <value>labelAddress6</value>
+  </data>
+  <data name="&gt;&gt;labelAddress6.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelAddress6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>622, 387</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1316, 182</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Manufacturer Info Address</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Name" xml:space="preserve">
+    <value>commandManager</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommandManager, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmManufacturerInfoAddress</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cMasterDetailTabFormWindow, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

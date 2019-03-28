@@ -1,0 +1,8 @@
+colsDataSubject;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Business Object in IFS Applications classified as a possible "Data Subject" (according to Personal Data Protection legislation). Data Subjects are natural persons who can be identified, directly or indirectly, by ID, location online identifier or one or more physical factors (physical, physiological, genetic, mental, economic, cultural, or social identity).\f0\par
+}"
+colsDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 A detailed description of why personal data has to be stored and processed. It has to refer to the relevant legal basis for data processing.\f0\par
+}"
+colsPersonalData;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The item\f0  classified as personal information stored in IFS Applications.\f0\par
+}"
+colsPurposeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The purpose for which personal data has to be stored and procesed.\f0\par
+}"

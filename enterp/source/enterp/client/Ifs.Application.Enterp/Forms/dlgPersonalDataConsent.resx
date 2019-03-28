@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="commandManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="commandOk.Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="commandCancel.Caption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="commandPrint.Caption" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cCommandButtonOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cCommandButtonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 12</value>
+  </data>
+  <data name="cCommandButtonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cCommandButtonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Name" xml:space="preserve">
+    <value>cCommandButtonOK</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cCommandButtonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cCommandButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 41</value>
+  </data>
+  <data name="cCommandButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="cCommandButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Name" xml:space="preserve">
+    <value>cCommandButtonCancel</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cCommandButtonPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 84</value>
+  </data>
+  <data name="cCommandButtonPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="cCommandButtonPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonPrint.Name" xml:space="preserve">
+    <value>cCommandButtonPrint</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonPrint.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dfdUpdateDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 72</value>
+  </data>
+  <data name="dfdUpdateDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="dfdUpdateDate.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;dfdUpdateDate.Name" xml:space="preserve">
+    <value>dfdUpdateDate</value>
+  </data>
+  <data name="&gt;&gt;dfdUpdateDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfdUpdateDate.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfdUpdateDate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelUpdateDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelUpdateDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 54</value>
+  </data>
+  <data name="labelUpdateDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="labelUpdateDate.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelUpdateDate.Text" xml:space="preserve">
+    <value>Update Date:</value>
+  </data>
+  <data name="&gt;&gt;labelUpdateDate.Name" xml:space="preserve">
+    <value>labelUpdateDate</value>
+  </data>
+  <data name="&gt;&gt;labelUpdateDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelUpdateDate.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelUpdateDate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelRemark.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRemark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 54</value>
+  </data>
+  <data name="labelRemark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="labelRemark.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelRemark.Text" xml:space="preserve">
+    <value>Remark:</value>
+  </data>
+  <data name="&gt;&gt;labelRemark.Name" xml:space="preserve">
+    <value>labelRemark</value>
+  </data>
+  <data name="&gt;&gt;labelRemark.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelRemark.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelRemark.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="dfsIdentity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 72</value>
+  </data>
+  <data name="dfsIdentity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="dfsIdentity.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentity.Name" xml:space="preserve">
+    <value>dfsIdentity</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentity.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentity.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="dfsIdentityName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 72</value>
+  </data>
+  <data name="dfsIdentityName.MaxLength" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="dfsIdentityName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 21</value>
+  </data>
+  <data name="dfsIdentityName.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentityName.Name" xml:space="preserve">
+    <value>dfsIdentityName</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentityName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentityName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfsIdentityName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelIdentity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelIdentity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="labelIdentity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="labelIdentity.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelIdentity.Text" xml:space="preserve">
+    <value>Data Subject ID:</value>
+  </data>
+  <data name="&gt;&gt;labelIdentity.Name" xml:space="preserve">
+    <value>labelIdentity</value>
+  </data>
+  <data name="&gt;&gt;labelIdentity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelIdentity.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelIdentity.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelIdentityName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelIdentityName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 56</value>
+  </data>
+  <data name="labelIdentityName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="labelIdentityName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelIdentityName.Text" xml:space="preserve">
+    <value>Data Subject Name:</value>
+  </data>
+  <data name="&gt;&gt;labelIdentityName.Name" xml:space="preserve">
+    <value>labelIdentityName</value>
+  </data>
+  <data name="&gt;&gt;labelIdentityName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelIdentityName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelIdentityName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tblUpdateHistory_colsSelected.Title" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsSelected.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsSelected</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsSelected.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsSelected.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsSelected.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblUpdateHistory_colsKeyRef.Title" xml:space="preserve">
+    <value>Key Ref</value>
+  </data>
+  <data name="tblUpdateHistory_colsKeyRef.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsKeyRef.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsKeyRef</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsKeyRef.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsKeyRef.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsKeyRef.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblUpdateHistory_colsDataSubjectId.Title" xml:space="preserve">
+    <value>Data 
+Subject ID</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectId.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsDataSubjectId</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectId.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tblUpdateHistory_colsDataSubject.Title" xml:space="preserve">
+    <value>Data Subject</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubject.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsDataSubject</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubject.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubject.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubject.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tblUpdateHistory_colsDataSubjectDb.Title" xml:space="preserve">
+    <value>Data Subject Db</value>
+  </data>
+  <data name="tblUpdateHistory_colsDataSubjectDb.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectDb.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsDataSubjectDb</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectDb.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectDb.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsDataSubjectDb.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tblUpdateHistory_coldOperationDate.Title" xml:space="preserve">
+    <value>Operation
+Date</value>
+  </data>
+  <data name="tblUpdateHistory_coldOperationDate.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldOperationDate.Name" xml:space="preserve">
+    <value>tblUpdateHistory_coldOperationDate</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldOperationDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldOperationDate.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldOperationDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tblUpdateHistory_coldUpdateDate.Title" xml:space="preserve">
+    <value>Update
+Date</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldUpdateDate.Name" xml:space="preserve">
+    <value>tblUpdateHistory_coldUpdateDate</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldUpdateDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldUpdateDate.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_coldUpdateDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tblUpdateHistory_colsAction.Title" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsAction.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsAction</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsAction.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsAction.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsAction.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tblUpdateHistory_colsRemark.Title" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsRemark.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsRemark</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsRemark.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsRemark.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsRemark.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tblUpdateHistory_colsPerformedBy.Title" xml:space="preserve">
+    <value>Performed by</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsPerformedBy.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsPerformedBy</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsPerformedBy.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsPerformedBy.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsPerformedBy.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tblUpdateHistory_colsActionDb.Title" xml:space="preserve">
+    <value>Action Db</value>
+  </data>
+  <data name="tblUpdateHistory_colsActionDb.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsActionDb.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsActionDb</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsActionDb.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsActionDb.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsActionDb.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tblUpdateHistory_colsLastUpdateAction.Title" xml:space="preserve">
+    <value>Last Update
+Action</value>
+  </data>
+  <data name="tblUpdateHistory_colsLastUpdateAction.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsLastUpdateAction.Name" xml:space="preserve">
+    <value>tblUpdateHistory_colsLastUpdateAction</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsLastUpdateAction.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsLastUpdateAction.Parent" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory_colsLastUpdateAction.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tblUpdateHistory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 300</value>
+  </data>
+  <data name="tblUpdateHistory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>662, 182</value>
+  </data>
+  <data name="tblUpdateHistory.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory.Name" xml:space="preserve">
+    <value>tblUpdateHistory</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cChildTable, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblUpdateHistory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dfsKeyRef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 27</value>
+  </data>
+  <data name="dfsKeyRef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="dfsKeyRef.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="dfsKeyRef.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsKeyRef.Name" xml:space="preserve">
+    <value>dfsKeyRef</value>
+  </data>
+  <data name="&gt;&gt;dfsKeyRef.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsKeyRef.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfsKeyRef.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelConsentGiven.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelConsentGiven.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelConsentGiven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 284</value>
+  </data>
+  <data name="labelConsentGiven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="labelConsentGiven.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelConsentGiven.Text" xml:space="preserve">
+    <value>Update History:</value>
+  </data>
+  <data name="&gt;&gt;labelConsentGiven.Name" xml:space="preserve">
+    <value>labelConsentGiven</value>
+  </data>
+  <data name="&gt;&gt;labelConsentGiven.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelConsentGiven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelConsentGiven.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tblDataProcessPurpose_colnPurposeId.Title" xml:space="preserve">
+    <value>Purpose
+ID</value>
+  </data>
+  <data name="tblDataProcessPurpose_colnPurposeId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colnPurposeId.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_colnPurposeId</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colnPurposeId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colnPurposeId.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colnPurposeId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsValid.Title" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsValid.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsValid.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_colsValid</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsValid.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsValid.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsValid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsPurposeName.Title" xml:space="preserve">
+    <value>Purpose
+</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsPurposeName.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposeName.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_colsPurposeName</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposeName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposeName.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposeName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tblDataProcessPurpose_coldEffectiveOn.Title" xml:space="preserve">
+    <value>Effective
+On</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveOn.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_coldEffectiveOn</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveOn.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveOn.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveOn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tblDataProcessPurpose_coldEffectiveUntil.Title" xml:space="preserve">
+    <value>Effective
+Until</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveUntil.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_coldEffectiveUntil</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveUntil.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveUntil.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_coldEffectiveUntil.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsPurposePersonalDataList.Title" xml:space="preserve">
+    <value>Associated 
+Personal Data </value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposePersonalDataList.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_colsPurposePersonalDataList</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposePersonalDataList.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposePersonalDataList.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsPurposePersonalDataList.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsDescription.Title" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="tblDataProcessPurpose_colsDescription.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsDescription.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose_colsDescription</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsDescription.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsDescription.Parent" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose_colsDescription.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tblDataProcessPurpose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 107</value>
+  </data>
+  <data name="tblDataProcessPurpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>662, 150</value>
+  </data>
+  <data name="tblDataProcessPurpose.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose.Name" xml:space="preserve">
+    <value>tblDataProcessPurpose</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cChildTable, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tblDataProcessPurpose.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbNoConsent.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbNoConsent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbNoConsent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 27</value>
+  </data>
+  <data name="rbNoConsent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 18</value>
+  </data>
+  <data name="rbNoConsent.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="rbNoConsent.Text" xml:space="preserve">
+    <value>Withdraw All</value>
+  </data>
+  <data name="&gt;&gt;rbNoConsent.Name" xml:space="preserve">
+    <value>rbNoConsent</value>
+  </data>
+  <data name="&gt;&gt;rbNoConsent.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cRadioButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;rbNoConsent.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;rbNoConsent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dfsRemark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 72</value>
+  </data>
+  <data name="dfsRemark.MaxLength" type="System.Int32, mscorlib">
+    <value>2000</value>
+  </data>
+  <data name="dfsRemark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 21</value>
+  </data>
+  <data name="dfsRemark.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;dfsRemark.Name" xml:space="preserve">
+    <value>dfsRemark</value>
+  </data>
+  <data name="&gt;&gt;dfsRemark.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsRemark.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfsRemark.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dfsDataSubject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 27</value>
+  </data>
+  <data name="dfsDataSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="dfsDataSubject.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="dfsDataSubject.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfsDataSubject.Name" xml:space="preserve">
+    <value>dfsDataSubject</value>
+  </data>
+  <data name="&gt;&gt;dfsDataSubject.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsDataSubject.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dfsDataSubject.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbNewConsent.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbNewConsent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbNewConsent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 27</value>
+  </data>
+  <data name="rbNewConsent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="rbNewConsent.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbNewConsent.Text" xml:space="preserve">
+    <value>New/Update Consent</value>
+  </data>
+  <data name="&gt;&gt;rbNewConsent.Name" xml:space="preserve">
+    <value>rbNewConsent</value>
+  </data>
+  <data name="&gt;&gt;rbNewConsent.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cRadioButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;rbNewConsent.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;rbNewConsent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbShowSelected.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbShowSelected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbShowSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 27</value>
+  </data>
+  <data name="rbShowSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 18</value>
+  </data>
+  <data name="rbShowSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbShowSelected.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;rbShowSelected.Name" xml:space="preserve">
+    <value>rbShowSelected</value>
+  </data>
+  <data name="&gt;&gt;rbShowSelected.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cRadioButton, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;rbShowSelected.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;rbShowSelected.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>681, 269</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Data Processing Purposes</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>47</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>796, 524</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> Data Processing Purpose Management</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Name" xml:space="preserve">
+    <value>commandManager</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommandManager, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandOk.Name" xml:space="preserve">
+    <value>commandOk</value>
+  </data>
+  <data name="&gt;&gt;commandOk.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandCancel.Name" xml:space="preserve">
+    <value>commandCancel</value>
+  </data>
+  <data name="&gt;&gt;commandCancel.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandPrint.Name" xml:space="preserve">
+    <value>commandPrint</value>
+  </data>
+  <data name="&gt;&gt;commandPrint.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgPersonalDataConsent</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDialog, Ifs.Fnd.ApplicationForms, Version=4.52.10.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

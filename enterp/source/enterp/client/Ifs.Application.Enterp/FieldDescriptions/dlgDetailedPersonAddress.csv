@@ -1,0 +1,13 @@
+labeldfsAddressId;UNUSED;""
+labeldfsCommunity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the community.\f0\par
+}"
+labeldfsDistrict;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the district to which the house/flat belongs.\par
+}"
+labeldfsFlatNo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The flat number.\f0  \par
+\f0\par
+}"
+labeldfsHouseNo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The house number.\par
+}"
+labeldfsPersonId;UNUSED;""
+labeldfsStreet;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the street in which the house\f0  or \f0 flat is located.\par
+}"

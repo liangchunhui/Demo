@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ToolBar.Name" xml:space="preserve">
+    <value>ToolBar</value>
+  </data>
+  <data name="&gt;&gt;ToolBar.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalFormToolBar, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;ToolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labeldfHeading5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labeldfHeading5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 92</value>
+  </data>
+  <data name="labeldfHeading5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 13</value>
+  </data>
+  <data name="labeldfHeading5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labeldfHeading5.Text" xml:space="preserve">
+    <value>2) Select template files to import</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading5.Name" xml:space="preserve">
+    <value>labeldfHeading5</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading5.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading5.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labeldfHeading4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfHeading4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 64</value>
+  </data>
+  <data name="labeldfHeading4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 13</value>
+  </data>
+  <data name="labeldfHeading4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labeldfHeading4.Text" xml:space="preserve">
+    <value>The file suffix normally corresponds to the template identity. </value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading4.Name" xml:space="preserve">
+    <value>labeldfHeading4</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading4.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading4.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labeldfHeading3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfHeading3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="labeldfHeading3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 13</value>
+  </data>
+  <data name="labeldfHeading3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labeldfHeading3.Text" xml:space="preserve">
+    <value>1) Add file suffix. The file suffix will be used to find files according to *&lt;suffix&gt;*.ins.</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading3.Name" xml:space="preserve">
+    <value>labeldfHeading3</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading3.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading3.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labeldfHeading2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfHeading2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="labeldfHeading2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 13</value>
+  </data>
+  <data name="labeldfHeading2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labeldfHeading2.Text" xml:space="preserve">
+    <value>This dialog will read and import a file with template data.</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading2.Name" xml:space="preserve">
+    <value>labeldfHeading2</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading2.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading2.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pbRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 46</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pbRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pbRemove.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="&gt;&gt;pbRemove.Name" xml:space="preserve">
+    <value>pbRemove</value>
+  </data>
+  <data name="&gt;&gt;pbRemove.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cPushButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;pbRemove.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;pbRemove.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 17</value>
+  </data>
+  <data name="pbAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pbAdd.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="&gt;&gt;pbAdd.Name" xml:space="preserve">
+    <value>pbAdd</value>
+  </data>
+  <data name="&gt;&gt;pbAdd.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cPushButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;pbAdd.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;pbAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 223</value>
+  </data>
+  <data name="lbFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 160</value>
+  </data>
+  <data name="lbFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lbFiles.Name" xml:space="preserve">
+    <value>lbFiles</value>
+  </data>
+  <data name="&gt;&gt;lbFiles.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms._cListBox, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;lbFiles.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;lbFiles.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pbCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 122</value>
+  </data>
+  <data name="pbCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="pbCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;pbCancel.Name" xml:space="preserve">
+    <value>pbCancel</value>
+  </data>
+  <data name="&gt;&gt;pbCancel.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cPushButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;pbCancel.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;pbCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pbOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 92</value>
+  </data>
+  <data name="pbOk.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="pbOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;pbOk.Name" xml:space="preserve">
+    <value>pbOk</value>
+  </data>
+  <data name="&gt;&gt;pbOk.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cPushButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;pbOk.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;pbOk.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dfsTemplateSuffix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="dfsTemplateSuffix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 164</value>
+  </data>
+  <data name="dfsTemplateSuffix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="dfsTemplateSuffix.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dfsTemplateSuffix.Name" xml:space="preserve">
+    <value>dfsTemplateSuffix</value>
+  </data>
+  <data name="&gt;&gt;dfsTemplateSuffix.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalDataField, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;dfsTemplateSuffix.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;dfsTemplateSuffix.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dfHeading.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dfHeading.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dfHeading.Name" xml:space="preserve">
+    <value>dfHeading</value>
+  </data>
+  <data name="&gt;&gt;dfHeading.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfHeading.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;dfHeading.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labellbFiles.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labellbFiles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="labellbFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 205</value>
+  </data>
+  <data name="labellbFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="labellbFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labellbFiles.Text" xml:space="preserve">
+    <value>Template Files:</value>
+  </data>
+  <data name="&gt;&gt;labellbFiles.Name" xml:space="preserve">
+    <value>labellbFiles</value>
+  </data>
+  <data name="&gt;&gt;labellbFiles.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labellbFiles.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labellbFiles.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 168</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labeldfsTemplateSuffix.Text" xml:space="preserve">
+    <value>File Suffix:</value>
+  </data>
+  <data name="&gt;&gt;labeldfsTemplateSuffix.Name" xml:space="preserve">
+    <value>labeldfsTemplateSuffix</value>
+  </data>
+  <data name="&gt;&gt;labeldfsTemplateSuffix.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsTemplateSuffix.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfsTemplateSuffix.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labeldfHeading1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="labeldfHeading1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="labeldfHeading1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 21</value>
+  </data>
+  <data name="labeldfHeading1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labeldfHeading1.Text" xml:space="preserve">
+    <value>Welcome to the Import Company Template Dialog</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading1.Name" xml:space="preserve">
+    <value>labeldfHeading1</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading1.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.52.9.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading1.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;labeldfHeading1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="gbFile_Details.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="gbFile_Details.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 143</value>
+  </data>
+  <data name="gbFile_Details.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 54</value>
+  </data>
+  <data name="gbFile_Details.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gbFile_Details.Text" xml:space="preserve">
+    <value>File Details</value>
+  </data>
+  <data name="&gt;&gt;gbFile_Details.Name" xml:space="preserve">
+    <value>gbFile_Details</value>
+  </data>
+  <data name="&gt;&gt;gbFile_Details.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalGroupBox, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;gbFile_Details.Parent" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;gbFile_Details.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ClientArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 389</value>
+  </data>
+  <data name="&gt;&gt;ClientArea.Name" xml:space="preserve">
+    <value>ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ClientArea.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalFormClientArea, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;ClientArea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClientArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Name" xml:space="preserve">
+    <value>StatusBar</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalFormStatusBar, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="commandManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>522, 389</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Import Company Template File Assistant</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Name" xml:space="preserve">
+    <value>commandManager</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommandManager, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgImportTemplateFile</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDialogBox, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

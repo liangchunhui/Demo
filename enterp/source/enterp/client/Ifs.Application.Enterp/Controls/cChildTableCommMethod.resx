@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;__colObjid.Name" xml:space="preserve">
+    <value>__colObjid</value>
+  </data>
+  <data name="&gt;&gt;__colObjid.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalTableColumn, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;__colObjid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;__colObjid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;__colObjversion.Name" xml:space="preserve">
+    <value>__colObjversion</value>
+  </data>
+  <data name="&gt;&gt;__colObjversion.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.SalTableColumn, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;__colObjversion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;__colObjversion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colsPartyType.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colsPartyType.Title" xml:space="preserve">
+    <value>PartyType</value>
+  </data>
+  <data name="colsPartyType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colsPartyType.Name" xml:space="preserve">
+    <value>colsPartyType</value>
+  </data>
+  <data name="&gt;&gt;colsPartyType.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsPartyType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsPartyType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colsPartyTypeDb.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colsPartyTypeDb.Title" xml:space="preserve">
+    <value>PartyType</value>
+  </data>
+  <data name="colsPartyTypeDb.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colsPartyTypeDb.Name" xml:space="preserve">
+    <value>colsPartyTypeDb</value>
+  </data>
+  <data name="&gt;&gt;colsPartyTypeDb.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsPartyTypeDb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsPartyTypeDb.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="colsIdentity.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colsIdentity.Title" xml:space="preserve">
+    <value>Identity</value>
+  </data>
+  <data name="colsIdentity.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colsIdentity.Name" xml:space="preserve">
+    <value>colsIdentity</value>
+  </data>
+  <data name="&gt;&gt;colsIdentity.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsIdentity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsIdentity.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colnCommId.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colnCommId.Title" xml:space="preserve">
+    <value>Comm Id</value>
+  </data>
+  <data name="colnCommId.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;colnCommId.Name" xml:space="preserve">
+    <value>colnCommId</value>
+  </data>
+  <data name="&gt;&gt;colnCommId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colnCommId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colnCommId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colsName.Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colsName.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;colsName.Name" xml:space="preserve">
+    <value>colsName</value>
+  </data>
+  <data name="&gt;&gt;colsName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="colsDescription.Title" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="colsDescription.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;colsDescription.Name" xml:space="preserve">
+    <value>colsDescription</value>
+  </data>
+  <data name="&gt;&gt;colsDescription.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsDescription.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="colsMethodId.Title" xml:space="preserve">
+    <value>Communication
+Method</value>
+  </data>
+  <data name="colsMethodId.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;colsMethodId.Name" xml:space="preserve">
+    <value>colsMethodId</value>
+  </data>
+  <data name="&gt;&gt;colsMethodId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cLookupColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsMethodId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsMethodId.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="colsValue.Title" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;colsValue.Name" xml:space="preserve">
+    <value>colsValue</value>
+  </data>
+  <data name="&gt;&gt;colsValue.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="colMethodDefault.Title" xml:space="preserve">
+    <value>Default
+per Method</value>
+  </data>
+  <data name="colMethodDefault.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;colMethodDefault.Name" xml:space="preserve">
+    <value>colMethodDefault</value>
+  </data>
+  <data name="&gt;&gt;colMethodDefault.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colMethodDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colMethodDefault.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="colsAddressId.Title" xml:space="preserve">
+    <value>Address Id</value>
+  </data>
+  <data name="colsAddressId.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;colsAddressId.Name" xml:space="preserve">
+    <value>colsAddressId</value>
+  </data>
+  <data name="&gt;&gt;colsAddressId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsAddressId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsAddressId.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="colAddressDefault.Title" xml:space="preserve">
+    <value>Default per
+Method and Address</value>
+  </data>
+  <data name="colAddressDefault.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;colAddressDefault.Name" xml:space="preserve">
+    <value>colAddressDefault</value>
+  </data>
+  <data name="&gt;&gt;colAddressDefault.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCheckBoxColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colAddressDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colAddressDefault.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="coldValidFrom.Title" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="&gt;&gt;coldValidFrom.Name" xml:space="preserve">
+    <value>coldValidFrom</value>
+  </data>
+  <data name="&gt;&gt;coldValidFrom.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;coldValidFrom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;coldValidFrom.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="coldValidTo.Title" xml:space="preserve">
+    <value>Valid To</value>
+  </data>
+  <data name="&gt;&gt;coldValidTo.Name" xml:space="preserve">
+    <value>coldValidTo</value>
+  </data>
+  <data name="&gt;&gt;coldValidTo.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;coldValidTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;coldValidTo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="colsPrevAddrId.Title" xml:space="preserve">
+    <value>Prev Addr Id</value>
+  </data>
+  <data name="colsPrevAddrId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colsPrevAddrId.Name" xml:space="preserve">
+    <value>colsPrevAddrId</value>
+  </data>
+  <data name="&gt;&gt;colsPrevAddrId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;colsPrevAddrId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colsPrevAddrId.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>889, 216</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>cChildTableCommMethod</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cChildTable, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_cTabManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 50</value>
+  </data>
+  <data name="&gt;&gt;_cTabManager.Name" xml:space="preserve">
+    <value>_cTabManager</value>
+  </data>
+  <data name="&gt;&gt;_cTabManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cTabManager, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 64, 5, 5</value>
+  </data>
+  <data name="picTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 445</value>
+  </data>
+  <data name="picTab.TabSetup" xml:space="preserve">
+    <value>{Name=Name0;Label=General}{Name=Name1;Label=Address;Form=frmTaxOfficeInfoAddress}{Name=Name2;Label=Comm. Method;Form=frmTaxOfficeInfoCommMethod}</value>
+  </data>
+  <data name="&gt;&gt;picTab.Name" xml:space="preserve">
+    <value>picTab</value>
+  </data>
+  <data name="&gt;&gt;picTab.Type" xml:space="preserve">
+    <value>PPJ.Runtime.Windows.QO.SalQuickTabs, PPJ.Runtime.4, Version=4.0.1046.0, Culture=neutral, PublicKeyToken=17bef35e11b84171</value>
+  </data>
+  <data name="&gt;&gt;picTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picTab.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="commandManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelcmbTaxOfficeId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcmbTaxOfficeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="labelcmbTaxOfficeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="labelcmbTaxOfficeId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelcmbTaxOfficeId.Text" xml:space="preserve">
+    <value>Tax Office ID:</value>
+  </data>
+  <data name="&gt;&gt;labelcmbTaxOfficeId.Name" xml:space="preserve">
+    <value>labelcmbTaxOfficeId</value>
+  </data>
+  <data name="&gt;&gt;labelcmbTaxOfficeId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelcmbTaxOfficeId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelcmbTaxOfficeId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbTaxOfficeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="cmbTaxOfficeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="cmbTaxOfficeId.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbTaxOfficeId.Name" xml:space="preserve">
+    <value>cmbTaxOfficeId</value>
+  </data>
+  <data name="&gt;&gt;cmbTaxOfficeId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cRecListDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbTaxOfficeId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbTaxOfficeId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labeldfsName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfsName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 8</value>
+  </data>
+  <data name="labeldfsName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="labeldfsName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labeldfsName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="&gt;&gt;labeldfsName.Name" xml:space="preserve">
+    <value>labeldfsName</value>
+  </data>
+  <data name="&gt;&gt;labeldfsName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfsName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfsName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dfsName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 25</value>
+  </data>
+  <data name="dfsName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="dfsName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dfsName.Name" xml:space="preserve">
+    <value>dfsName</value>
+  </data>
+  <data name="&gt;&gt;dfsName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelcmbDefaultLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcmbDefaultLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 96</value>
+  </data>
+  <data name="labelcmbDefaultLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="labelcmbDefaultLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelcmbDefaultLanguage.Text" xml:space="preserve">
+    <value>Default Language:</value>
+  </data>
+  <data name="&gt;&gt;labelcmbDefaultLanguage.Name" xml:space="preserve">
+    <value>labelcmbDefaultLanguage</value>
+  </data>
+  <data name="&gt;&gt;labelcmbDefaultLanguage.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelcmbDefaultLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelcmbDefaultLanguage.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbDefaultLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 113</value>
+  </data>
+  <data name="cmbDefaultLanguage.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="cmbDefaultLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="cmbDefaultLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultLanguage.Name" xml:space="preserve">
+    <value>cmbDefaultLanguage</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultLanguage.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cComboBox, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelcmbCountry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 138</value>
+  </data>
+  <data name="labelcmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="labelcmbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelcmbCountry.Text" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Name" xml:space="preserve">
+    <value>labelcmbCountry</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelcmbCountry.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 155</value>
+  </data>
+  <data name="cmbCountry.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="cmbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Name" xml:space="preserve">
+    <value>cmbCountry</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cComboBox, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labeldfdCreationDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfdCreationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 180</value>
+  </data>
+  <data name="labeldfdCreationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="labeldfdCreationDate.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labeldfdCreationDate.Text" xml:space="preserve">
+    <value>Creation Date:</value>
+  </data>
+  <data name="&gt;&gt;labeldfdCreationDate.Name" xml:space="preserve">
+    <value>labeldfdCreationDate</value>
+  </data>
+  <data name="&gt;&gt;labeldfdCreationDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfdCreationDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfdCreationDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dfdCreationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 197</value>
+  </data>
+  <data name="dfdCreationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="dfdCreationDate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dfdCreationDate.Name" xml:space="preserve">
+    <value>dfdCreationDate</value>
+  </data>
+  <data name="&gt;&gt;dfdCreationDate.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfdCreationDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfdCreationDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>685, 445</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 154</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tax Office</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Name" xml:space="preserve">
+    <value>commandManager</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommandManager, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTaxOfficeInfo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cMasterDetailTabFormWindow, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

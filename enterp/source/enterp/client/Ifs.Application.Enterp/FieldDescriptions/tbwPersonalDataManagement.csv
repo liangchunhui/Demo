@@ -1,0 +1,14 @@
+colDataCleanup;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , personal data will be included in the cleanup process. \par
+If \b Cleared\b0 , personal data will never be affected.\f0\par
+}"
+colnPersDataManagementId;UNUSED;""
+colsAnonymizationMethodId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Identifier of a method used to anonymize data.\f0\par
+}"
+colsDataCleanupMethod;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The anonymization method used when data is anonymized. If not specified, the default anonymization method or fixed anonymization will be used.\par
+\b Note:\b0  The fixed anonymization value can be set in the \b\i Personal Data Anonymization Detail\b0\i0  window (available by right-clicking \b Customize Anonymization\'85\b0 ). Fixed anonymization method works \b only\b0  for anonymization (not removal).\par
+}"
+colsDataCleanupMethodDb;UNUSED;""
+colsPersonalData;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The item\f0  classified as personal information stored in IFS Applications.\f0\par
+}"
+colsSystemDefinedDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Indicates that personal data is pre-configured and cannot be removed from the Personal Data Management configuration.\par
+}"

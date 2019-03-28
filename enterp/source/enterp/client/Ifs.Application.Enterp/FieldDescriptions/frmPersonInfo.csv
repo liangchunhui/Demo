@@ -1,0 +1,71 @@
+cbBlockedForUseDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected, it will prevent users from adding this person as a customer contact to any new customer.\par
+}"
+cbBlockedForUseSuppDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected, it will prevent users from adding this person as a supplier contact to any new suppliers.\par
+}"
+cbCustomerContactDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected it indicates that the specified person \f0 is\f0  a contact for customer. Only a person who is specified as a contact can be used as a contact for customer.\par
+}"
+cbDefaultDomain;UNUSED;""
+cbInactive;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the person is not active for document distribution. Therefore, the person ID will not be listed in the \b\i Document\b0\i0  \b\i Distribution\b0\i0  \b\i Assistant\b0\i0  window when the \b Show Only Active Persons\b0  option is selected. However, it is possible to distribute documents to an inactive person by selecting the \b Show All Persons\b0  option.\f0\par
+}"
+cbProtected;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the personal address as well as communication data will be hidden to all users without specific access to communication data. However, this check box is overruled when communication data is connected to an address with \b Work\b0  as the single address type. The information is protected for all employee numbers of the person that exist in the database. Only users with access to protected persons are able to modify the protected flag.\f0\par
+}"
+cbSupplierContactDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected it indicates that the specified person \f0 is\f0  a contact for supplier. Only a person who is specified as a contact can be used as a contact for supplier.\par
+}"
+cbValidDataProcessingPurpose;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , there is a valid purpose to store and process personal data of the Data Subject (a person whose data is stored in the application).\f0\par
+}"
+labelAlternativeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 An additional name for the person. If you need to have a translated value for the Full Name of the person, you can enter value in this field.\par
+}"
+labelcmbCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate country from the drop down list. The country you choose  has no practical meaning in the Enterprise component. It is only dependent on how other installed modules utilize it. The IFS/Accounting Rules component is one example. Some posting types can be governed depending on the choice of country. The available countries are those marked as Used in Application in the \b\i ISO Cod\f0 e Usage\f0 /Country\b0\i0  tab. Contact your System Administrator if a country you want to use is not visible. It is possible to change the country after saving.\par
+}"
+labelcmbDefaultLanguage;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Enter the language to be used for the person in this field. The language specified for a person is irrelevant in the Enterprise component since It is only dependent on how other installed components would want to use it. IFS/Invoice is one example. The choice of language in the corresponding field in the \i Customer\i0  page determines the language with which to print an invoice. The languages you can choose from depend on those that have been selected in the \b\i ISO Code Usage/Language\b0\i0  \f0 tab\f0 t. Contact your System Administrator if you are missing a language you would want to use. You can edit this field after saving the record if necessary.\par
+}"
+labelcmbPerson;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard In this field you can enter the identity of the person. If you want to change or enter a new information about a previously entered person in this window, you can click on Populate or Query Dialog to search for it.\par
+
+}"
+labeldfdCreationDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date on which the record was created. This value is set automatically when the record is created. This field cannot be updated.\f0\par
+
+
+}"
+labeldfsTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+labeldfsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Here you enter the user name that should be used for the current person when logging on to the application. You can enter the user identity or choose from the List of Values.\par
+}"
+labelName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The full name of the person. When entering a new person, if you enter a single name to the \b Full Name\b0  field the \b\i Full Name\b0\i0  dialog box will be automatically displayed. In the popup dialog, first name will automatically have the single name value you entered to the \b Full Name\b0  field. If you want to edit the full name after saving the record, you need to click \b\f0 Edit\b0\f0 . \par
+}"
+labelState;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The validity of the value. Setting the validity will determine whether the value can be selected when creating new or modifying existing records in other parts of the IFS Applications. \par
+ \par
+The available options are: \par
+\bullet  \b Active\b0  - The value is available to be used. This is the default validity setting. \par
+\bullet  \b Hidden\b0  - The value is possible to use but it is by default excluded from the list of values. It can be included in the list of values by selecting the \b Show Hidden\b0  check box. An example of when this validity status might be used is when the value is either still preliminary or being phased out. \par
+\pard\bullet  \b Blocked\b0  - The value cannot be used when creating new or modifying records in other parts of the IFS Applications.\f0\par
+}"
+labeltblContactCustomer;UNUSED;""
+labeltblContactSupplier;UNUSED;""
+tblContactCustomer_colCustomerInfoName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the customer. The name is automatically retrieved from the customer basic data.\par
+}"
+tblContactCustomer_colsBlockedForCrmObjectsDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Indicates if this contact is blocked for use in CRM functionalities for the specified customer. This information is automatically retrieved from the customer basic data.\par
+}"
+tblContactCustomer_colsCustomerAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The connected customer\rquote s address ID where the specified person is defined as a contact for the customer.\f0\par
+}"
+tblContactCustomer_colsCustomerCategory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The category of the customer\f0 . \f0 The category is automatically retrieved from the customer basic data.\par
+}"
+tblContactCustomer_colsCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The connected customer ID, if the specified person is defined as a contact in Customer.\f0\par
+}"
+tblContactCustomer_colsDepartment;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The department of the contact that he/she works at the specified customer. The department is automatically retrieved from the \f0 customer\f0  basic data.\par
+}"
+tblContactCustomer_colsManager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The manager of the contact in regard to the specified customer. The manager is automatically retrieved from the customer basic data.\par
+}"
+tblContactCustomer_colsRole;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The role of the contact in regard to the specified customer. The role is automatically retrieved from the customer basic data.\par
+}"
+tblContactSupplier_colsDepartment;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The department of the contact that he/she works at the specified supplier. The department is automatically retrieved from the \f0 supplier\f0  basic data.\par
+}"
+tblContactSupplier_colsRole;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The role of the contact in regard to the specified supplier. The role is automatically retrieved from the supplier basic data.\par
+}"
+tblContactSupplier_colsSupplierAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The connected supplier\rquote s address ID where the specified person is defined as a contact for the supplier.\par
+}"
+tblContactSupplier_colsSupplierId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The identity of the supplier.\par
+}"
+tblContactSupplier_colSupplierCategory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The category of the supplier. The category is automatically retrieved from the supplier basic data.\par
+}"
+tblContactSupplier_colSupplierInfoName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the supplier. A value for this field is automatically retrieved from the supplier basic data.\par
+}"

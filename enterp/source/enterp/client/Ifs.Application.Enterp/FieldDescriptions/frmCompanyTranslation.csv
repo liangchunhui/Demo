@@ -1,0 +1,26 @@
+labelcmbCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the company for which the attributes and translations apply.\par
+}"
+labeldfCompanyName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The\f0  name or\f0  description of the company displayed in the \b Company\b0  field. You cannot change the description in this field.\par
+}"
+labeldfsLu;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The Logical Unit that owns the attributes.\par
+}"
+labeldfsModule;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the module that the attributes belong to.\par
+}"
+tblCompanyTranslationDetail_colsAttributeKey;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The translation key.\par
+}"
+tblCompanyTranslationDetail_colsCurrentTranslation;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The current translation related to the language code. This translation can be modified by the end user.\par
+}"
+tblCompanyTranslationDetail_colsInstallationTranslation;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The installation translation related to language code.\par
+}"
+tblCompanyTranslationDetail_colsKeyName;UNUSED;""
+tblCompanyTranslationDetail_colsKeyValue;UNUSED;""
+tblCompanyTranslationDetail_colsLanguageCodeDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The database code or ID for the language.\par
+}"
+tblCompanyTranslationDetail_colsLanguageCodeDesc;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The full description of the language to be used. The language is displayed automatically when the language code is entered.\par
+}"
+tblCompanyTranslationDetail_colsLu;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The Logical Unit that owns the attributes.\par
+}"
+tblCompanyTranslationDetail_colsModule;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the module that the attributes belong to.\par
+}"
+tblCompanyTranslationDetail_colsSystemDefined;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This check box is selected for the attribute translations that have been defined by the system.\par
+}"

@@ -1,0 +1,32 @@
+colsAddress1;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The first line of the end customer address. The value is automatically retrieved from the customer basic data. \par
+}"
+colsAddress2;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The second line of the end customer address. The value is automatically retrieved from the customer basic data.\par
+}"
+colsAddressId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The address identity of the customer to which an end customer is connected.\par
+}"
+colsCity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The city part of the address.\par
+}"
+colsCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The country of the end customer\f0  address\f0 . The value is automatically retrieved from the customer basic data.\par
+}"
+colsCounty;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The county of the end customer. The value is automatically retrieved from the customer basic data. \par
+}"
+colsCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The customer identity.\par
+}"
+colsEndCustAddrId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The address identity of the end customer you registered for this customer address. The value is automatically retrieved from the customer basic data. \par
+}"
+colsEndCustomerCategory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The category of the end customer. The value is automatically retrieved from the customer basic data.\par
+}"
+colsEndCustomerCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The country of the end customer. The value is automatically retrieved from the customer basic data. \par
+}"
+colsEndCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The ID of the end customer you registered for this customer address. The value is automatically retrieved from the customer basic data. \b Note\b0 : An end customer can be connected only if the address type is \b Delivery\b0 .\par
+}"
+colsEndCustomerName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the end customer. The value is automatically retrieved from the customer basic data.\par
+}"
+colsState;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The state used for the address.\par
+}"
+colsZipCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Displays the Zip Code connected to the selected Address ID.\par
+}"
+labelCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The short name or identification number of the customer. You can use the search option to search for an existing customer.\par
+}"
+labelName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the customer. The name is automatically retrieved from the customer basic data.\par
+}"

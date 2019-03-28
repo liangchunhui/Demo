@@ -1,0 +1,8 @@
+labeldfsCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID and name of your current company is displayed. \f0\par
+}"
+tblChangeCompany_colsCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the company.\par
+}"
+tblChangeCompany_colsDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The\f0  name or\f0  description of the company displayed in the \b Company\b0  field. You cannot change the description in this field.\par
+}"
+tblChangeCompany_colsSelectGlobal;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard When the dialog box is opened, the checkbox for your current company is selected. To change company, select the check box for another company and press \b OK\b0 .\f0\par
+}"

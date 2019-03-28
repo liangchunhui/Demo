@@ -1,0 +1,16 @@
+coldDateValue;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date used to replace original date values.\f0\par
+}"
+colnNumberValue;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The \f0 number\f0  used to replace original \f0 number\f0  values.\f0\par
+}"
+colsAnonymizationMode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The way in which text values are anonymized.\par
+Following modes are available:\par
+\pard{\pntext\f0\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\b Fixed Value\b0  - text from the \b Text Value \b0 field is used to replace the original text value. E.g. if the \b Text Value \b0 is set to \b ***\b0 , and the original text is \b Moore\b0 , it will be changed to \b ***\b0\f0\par
+\b\f0{\pntext\f0\'B7\tab}Replace All Characters\b0  - text from the \b Text Value \b0 field is used as a pattern to replace all characters of the original text value. E.g. if the \b Text Value\b0  is set to \b *\b0 , and the original text is \b Moore\b0 , it will be changed to \b *****\b0\f0\par
+\pard{\pntext\f0\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\b\f0 Leave First Character\b0  - works similar to the \b Replace All Characters\b0  mode but the first letter of the original text value remains unchanged. E.g. if the \b Text Value\b0  is set to \b *\b0 , and the original text is \b Moore\b0 , it will be changed to \b M****\b0\f0\par
+}"
+colsDefaultMethodDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The method used for all personal data that has no other anonymization settings.\f0\par
+}"
+colsMethodId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Identifier of a method used to anonymize data.\f0\par
+}"
+colsTextValue;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Text value that will be used to replace the original data value (based on the selected anonymization mode).\f0\par
+}"

@@ -1,0 +1,24 @@
+cbReplace;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If you select multiple rows and then this checkbox, the Update Existing checkbox will be selected for all selected companies which are also included in the copy process.\f0\par
+}"
+cbRunInBackground;UNUSED;""
+cbSelect;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard By selecting multiple rows and then this checkbox, all selected companies will be included in the copy process.\f0\par
+}"
+lblAuto;UNUSED;""
+lblManual;UNUSED;""
+tblSelectCompany_colInclude;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Select this checkbox if the company should be included in the copy process.\f0\par
+}"
+tblSelectCompany_colsCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the company.\par
+}"
+tblSelectCompany_colsCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the country.\par
+}"
+tblSelectCompany_colsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name or description of the company.\par
+}"
+tblSelectCompany_colsSourceCompany;UNUSED;""
+tblSelectCompany_colUpdateExist;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Select any of the following options for updating existing fields when using Basic Data Synchronization:\par
+\par
+\pard{\pntext\f0\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-96\li96\b No Update:\b0  If records already exist in the target company, no updates should be done from the source company\par
+\b{\pntext\f0\'B7\tab}Modification Only:\b0  If records already exist in the target company, only modified fields from the source company should be updated\par
+\b{\pntext\f0\'B7\tab}Update All:\b0  If records already exist in the target company, all fields should be updated from the source company\f0\par
+\pard\par
+\b\f0 Note:\b0  The option \b Modification Only\b0  can only be choosen when Basic Data Synchronization is set up for this window.\f0\par
+}"

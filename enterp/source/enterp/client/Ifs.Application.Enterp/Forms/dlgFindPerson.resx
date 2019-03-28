@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="commandManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="commandOk.Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="commandCancel.Caption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="commandFind.Caption" xml:space="preserve">
+    <value>&amp;Find</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cCommandButtonOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cCommandButtonOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cCommandButtonOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCommandButtonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>926, 387</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cCommandButtonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="cCommandButtonOK.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Name" xml:space="preserve">
+    <value>cCommandButtonOK</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonOK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cCommandButtonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cCommandButtonCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cCommandButtonCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCommandButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1004, 387</value>
+  </data>
+  <data name="cCommandButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="cCommandButtonCancel.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Name" xml:space="preserve">
+    <value>cCommandButtonCancel</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonCancel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cCommandButtonFind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cCommandButtonFind.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cCommandButtonFind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 13</value>
+  </data>
+  <data name="cCommandButtonFind.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="cCommandButtonFind.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonFind.Name" xml:space="preserve">
+    <value>cCommandButtonFind</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonFind.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cCommandButton, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonFind.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cCommandButtonFind.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labeldfdsFirstName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfdsFirstName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="labeldfdsFirstName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labeldfdsFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="labeldfdsFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="labeldfdsFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labeldfdsFirstName.Text" xml:space="preserve">
+    <value>First name:</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsFirstName.Name" xml:space="preserve">
+    <value>labeldfdsFirstName</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsFirstName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsFirstName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsFirstName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dfsFirstName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="dfsFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="dfsFirstName.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="dfsFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="dfsFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dfsFirstName.Name" xml:space="preserve">
+    <value>dfsFirstName</value>
+  </data>
+  <data name="&gt;&gt;dfsFirstName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsFirstName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsFirstName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labeldfdsLastName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeldfdsLastName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="labeldfdsLastName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labeldfdsLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 13</value>
+  </data>
+  <data name="labeldfdsLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labeldfdsLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="labeldfdsLastName.Text" xml:space="preserve">
+    <value>Last name:</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsLastName.Name" xml:space="preserve">
+    <value>labeldfdsLastName</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsLastName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cBackgroundText, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsLastName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labeldfdsLastName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dfsLastName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="dfsLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 13</value>
+  </data>
+  <data name="dfsLastName.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="dfsLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="dfsLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;dfsLastName.Name" xml:space="preserve">
+    <value>dfsLastName</value>
+  </data>
+  <data name="&gt;&gt;dfsLastName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDataField, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;dfsLastName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dfsLastName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblFindPerson.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tblFindPerson_colsPersonId.Title" xml:space="preserve">
+    <value>Person Id</value>
+  </data>
+  <data name="tblFindPerson_colsPersonId.Width" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsPersonId.Name" xml:space="preserve">
+    <value>tblFindPerson_colsPersonId</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsPersonId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsPersonId.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsPersonId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblFindPerson_colsName.Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="tblFindPerson_colsName.Width" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsName.Name" xml:space="preserve">
+    <value>tblFindPerson_colsName</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsName.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsName.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblFindPerson_colsTitle.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="tblFindPerson_colsTitle.Width" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsTitle.Name" xml:space="preserve">
+    <value>tblFindPerson_colsTitle</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsTitle.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsTitle.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tblFindPerson_colsCountry.Title" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="tblFindPerson_colsCountry.Width" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsCountry.Name" xml:space="preserve">
+    <value>tblFindPerson_colsCountry</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsCountry.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cLookupColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsCountry.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsCountry.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tblFindPerson_colsUserId.Title" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="tblFindPerson_colsUserId.Width" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsUserId.Name" xml:space="preserve">
+    <value>tblFindPerson_colsUserId</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsUserId.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsUserId.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsUserId.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tblFindPerson_colsContactCustomers.Title" xml:space="preserve">
+    <value>Contact for Customer</value>
+  </data>
+  <data name="tblFindPerson_colsContactCustomers.Width" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactCustomers.Name" xml:space="preserve">
+    <value>tblFindPerson_colsContactCustomers</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactCustomers.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactCustomers.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactCustomers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tblFindPerson_colsContactSuppliers.Title" xml:space="preserve">
+    <value>Contact for Supplier</value>
+  </data>
+  <data name="tblFindPerson_colsContactSuppliers.Width" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactSuppliers.Name" xml:space="preserve">
+    <value>tblFindPerson_colsContactSuppliers</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactSuppliers.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cColumn, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactSuppliers.Parent" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson_colsContactSuppliers.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tblFindPerson.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tblFindPerson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 56</value>
+  </data>
+  <data name="tblFindPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1067, 311</value>
+  </data>
+  <data name="tblFindPerson.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson.Name" xml:space="preserve">
+    <value>tblFindPerson</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson.Type" xml:space="preserve">
+    <value>Ifs.Application.Enterp.cChildTableEntBase, Ifs.Application.Enterp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblFindPerson.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 422</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Select Person</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Name" xml:space="preserve">
+    <value>commandManager</value>
+  </data>
+  <data name="&gt;&gt;commandManager.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommandManager, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandOk.Name" xml:space="preserve">
+    <value>commandOk</value>
+  </data>
+  <data name="&gt;&gt;commandOk.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandCancel.Name" xml:space="preserve">
+    <value>commandCancel</value>
+  </data>
+  <data name="&gt;&gt;commandCancel.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;commandFind.Name" xml:space="preserve">
+    <value>commandFind</value>
+  </data>
+  <data name="&gt;&gt;commandFind.Type" xml:space="preserve">
+    <value>Ifs.Fnd.Windows.Forms.FndCommand, Ifs.Fnd.Windows.Forms.CommonControls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgFindPerson</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Ifs.Fnd.ApplicationForms.cDialog, Ifs.Fnd.ApplicationForms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ff90f512e10aef0d</value>
+  </data>
+</root>

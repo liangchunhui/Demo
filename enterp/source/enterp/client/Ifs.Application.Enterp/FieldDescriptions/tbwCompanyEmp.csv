@@ -1,0 +1,12 @@
+coldExpireDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard In this column you can enter an expire date on an employee's ID.\par
+}"
+colsCompany;UNUSED;""
+colsEmployeeId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identifier of an employee, unique within a company.\f0\par
+}"
+colsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the person will be automatically displayed if the ID of the person has previously been registered in the Person page.\par
+}"
+colsPersonId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard In this field you can enter the identity of the person. If you want to change or enter a new information about a previously entered person in this window, you can click on Populate or Query Dialog to search for it.\par
+
+}"
+colValidDataProcessingPurpose;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , there is a valid purpose to store and process personal data of the Data Subject (a person whose data is stored in the application).\f0\par
+}"

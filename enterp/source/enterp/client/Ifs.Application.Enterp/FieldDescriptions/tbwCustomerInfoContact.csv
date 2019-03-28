@@ -1,0 +1,70 @@
+colAddressPrimary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the contact is the primary contact for the specified address ID. The check box can be selected only for one contact per customer address.\f0\par
+}"
+colAddressSecondary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the contact is the secondary contact for the specified address ID. The check box can be selected only for one contact per customer address.\f0\par
+}"
+colCustomerPrimary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, The contact is the primary contact for the customer. Only one customer primary contact can exist per customer. This contact can be connected to a specified customer address if required.\f0\par
+}"
+colCustomerSecondary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the contact is the secondary contact for the customer. Only one customer secondary contact can exist per customer. This contact can be connected to a specified customer address if required.\f0\par
+}"
+colPersonInfoAddressE_Mail;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 E-mail address\f0  entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\par
+\par
+}"
+colPersonInfoAddressFax;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 fax\f0  number entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\par
+\par
+}"
+colPersonInfoAddressIntercom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default intercom number entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the \b\i\f0 Person/Comm. Method\b0\i0\f0  tab.\par
+\par
+}"
+colPersonInfoAddressMobile;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default mobile number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+colPersonInfoAddressPager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default pager number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+colPersonInfoAddressPhone;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 phone\f0  number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+colPersonInfoAddressWww;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The URL of the web page to be linked.\par
+}"
+colPersonInfoName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name connected to the person ID. This value is retrieved from the person record in IFS/Enterprise. Any changes need to be performed in the person record.\f0\par
+}"
+colPersonInfoTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+colsBlockedForCrmObjectsDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Indicates if this contact is blocked for use in CRM functionalities for the specified customer.\par
+}"
+colsCampaignInterest;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Campaign interests of the contact. You can select more than one value for this field. Campaign interests are defined in the \b\i\f0 CRM Basic Data\b0\i0\f0  window.\par
+}"
+colsConnectAllCustAddrDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected, it indicates that all the customer addresses are connected to the specified contact.\f0\par
+}"
+colsContactAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field controls what default communication method values in Person/\b\i Comm. Method\b0\i0  tab should be shown in the fields such as \b Phone\b0 , \b Mobile\b0 , \b Fax\b0  etc. This field has no value by default, but it can be manually updated.\f0\par
+}"
+colsCustomerAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the customer address. If a contact person is to be connected to a single customer address, a value should be entered in this field. The contact will then also be visible in IFS/Customer Order and Customer/Address/\b\i General Address Info\b0\i0  tab. No value is displayed in this field by default since the contact is regarded as a general customer contact.\f0\par
+\par
+}"
+colsCustomerId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The connected customer ID, if the specified person is defined as a contact in Customer.\f0\par
+}"
+colsCustomerName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the customer. The name is automatically retrieved from the customer basic data.\par
+}"
+colsDecisionPowerType;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Contact's ability to take decisions.\par
+}"
+colsDepartment;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The department of the contact that he/she works at this customer.\par
+}"
+colsGuid;UNUSED;""
+colsMainRepresentativeId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The user responsible for the customer contact.\par
+}"
+colsMainRepresentativeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the main representative for the customer contact.\par
+}"
+colsManager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The manager of the contact in regard to this customer. The manager should be\f0  \f0 another contact of this customer.\par
+}"
+colsManagerCustAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The customer address ID of the manager.\par
+}"
+colsManagerGuid;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The manager of the contact in regard to this customer. The manager should be\f0  \f0 another contact of this customer.\par
+}"
+colsManagerName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the manager.\f0  \f0 This field is automatically filled according to the value displayed \f0 in \f0 the \b Manager\b0  field. \f0\par
+}"
+colsNoteText;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is a free-text field of up to 2000 characters, in which you can enter any information. Notes are object-linked text, but they are never printed like document texts; instead they function as your own notes and comments for internal reference only. A note can be used as a means of forwarding information to someone who will process the object later. You can view and update the text in an editor reached by double-clicking in the field.\par
+}"
+colsPersonalInterest;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Personal interests of the contact. You can select more than one value for this field. Personal interests are defined in the \b\i\f0 CRM Basic Data\b0\i0\f0  window.\par
+}"
+colsPersonId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The ID of the person you would like to register. This can be entered either manually or by selecting one from the List of Values. Only records that exist in IFS/Enterprise,\b\i Person\b0\i0  can be added this way. If you want to add a new person as a contact, use the right mouse button option \b Add Contact\b0  on the \b\i Contact\b0\i0  tab.\f0\par
+
+}"
+colsRole;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The role of the contact in regard to this customer. You can select more than one value for this field. Contact Roles are defined in the \b\i\f0 Enterprise/Basic Data/ Contact Roles\b0\i0\f0  window.\par
+}"

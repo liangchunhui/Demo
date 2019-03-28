@@ -1,0 +1,79 @@
+cbAssets;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Assets\b0  should be enabled for currency balance.\par
+}"
+cbCost;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Cost\b0  should be enabled for currency balance.\par
+}"
+cbLiabilities;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Liabilities\b0  should be enabled for currency balance.\par
+}"
+cbMasterCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the company will be created as a master company for the Group Consolidation process (i.e. a company where rules for consolidation are defined and the consolidation is processed). It is not possible to use the Parallel Currency functionality in a company defined as a master company. Note that it is not possible to select this check box after the company has been created.\f0\par
+}"
+cbRevenues;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Revenues\b0  should be enabled for currency balance.\par
+}"
+cbStatistics;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Statistics\b0  should be enabled for currency balance.\par
+}"
+cbStatOpenBal;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this checkbox if all accounts belonging to the logical account type \b Statistics, Opening Balance\b0  should be enabled for currency balance.\par
+}"
+cbTemplateCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If you select this check box, it will not possible to create vouchers in the company. A template company should be used as a template company in which you enter default data and then use this company to create other companies. \f0\par
+}"
+cbUsePeriod;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This check box defines the way of creating voucher number series. If the check box is selected, voucher series per voucher types are generated automatically considering the year and the period. If not, voucher series per voucher types are created in the default way i.e. considering only the year. Note that when this check box is selected, it is not possible to select the \b Same No Preliminary and Final Supplier Invoice \b0 check box in the Company/Invoice/\b\i General\b0\i0  tab.\f0\par
+}"
+labelcmbCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate country from the drop down list. The country you choose  has no practical meaning in the Enterprise component. It is only dependent on how other installed modules utilize it. The IFS/Accounting Rules component is one example. Some posting types can be governed depending on the choice of country. The available countries are those marked as Used in Application in the \b\i ISO Cod\f0 e Usage\f0 /Country\b0\i0  tab. Contact your System Administrator if a country you want to use is not visible. It is possible to change the country after saving.\par
+}"
+labelcmbDefaultLanguage;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this field you can change the default language for the company. The language you enter for a company has no practical meaning in the IFS/Enterprise component. It is only dependent on how other installed components utilize it. The IFS/Invoice component is one example. The choice of language in the corresponding field in the \b\i Company\b0\i0  windowdetermines the language used in printing an invoice. The languages available to select from depends upon which ones have been selected in the \b\i ISO Code Usage/Language\b0\i0  tab\f0 .\f0 . Contact your system administrator if a language you want to use is not available. If you want, you can edit this field after saving the record.\par
+}"
+labeldfAccYear;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the first year you want in your accounting calendar. In order to transfer opening balances to the first operative year, the first accounting year should be set to an year earlier than the first operative year.\f0\par
+}"
+labeldfdtValidFrom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date from which the company is valid.\par
+}"
+labeldfHeading1;UNUSED;""
+labeldfHeading2;UNUSED;""
+labeldfHeading3;UNUSED;""
+labeldfNumberOfYears;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the number of years that you want to create in the accounting calendar. You can enter values up to 99.\f0\par
+
+}"
+labeldfsAccountingCurrency;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The accounting currency of the specified company.\par
+}"
+labeldfsDomainId;UNUSED;""
+labeldfsDummyLang;UNUSED;""
+labeldfsNewCompanyId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is the identification code of the company. The length of the ID can be up to 20 characters.\par
+}"
+labeldfsNewCompanyName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name or description of the company.\par
+}"
+labeldfsParallelAccCurrency;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If a currency code for a parallel currency is entered, amounts in that currency will be calculated and stored in each posting transaction. Depending on the selected base, the calculation can either start from the amount in transaction currency or the amount in accounting currency. The parallel currency exchange rate which is valid for the voucher date in question will then be applied. If the transaction currency and the parallel currency are equal, the transaction currency amount will be copied to the parallel currency amount and not calculated. \par
+\par
+The parallel currency will be valid from the same date as the selected Valid From date for the company. The parallel currency cannot be activated after the company has been created. If this needs to be done, contact IFS Consulting for advice \f0\par
+}"
+labeldfsSourceCompanyId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Identity of the existing company that is to be used as the source company to create the new company. \par
+}"
+labeldfsSourceCompanyName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Name or description of the source company.\par
+}"
+labeldfStartYear;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the start year and month for the accounting calendar. The start year can either be equal to the current \b First Accounting Year\b0  or one year less. The latter requires that the start month is not equal to 1. This makes it possible to create an accounting calendar which is different from the normal calendar. E.g., the first accounting year could be 2010 but the calendar can be created starting from month 10 of 2009. October 2009 will then be period 1 for year 2010 in the accounting calendar and September 2010 will be period 12.\f0\par
+}"
+labeldfsTemplateId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter or select from the List of Values, the identity of the template to be used when creating a company based on a template. The new company will be created based on the information of the selected company template.\par
+}"
+labeldfsTemplateName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name or description of the template.\par
+}"
+labellbLanguages;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The languages from which you can choose (the dictionary files are available).\par
+}"
+labelParallelCurrBase;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The base for calculating amounts in parallel currency. Possible values are as follows.\line\par
+\b Transaction Currency\b0 : If this is selected, amounts in parallel currency will be handled the same way as amounts in accounting currency are handled in IFS Financials.\line\par
+\b Accounting Currency\b0 : If this is selected, there will be limitations when using the Parallel Currency functionality, especially when clearing out balances (e.g. paying an invoice).\line\par
+\pard Refer Topics in IFS Applications/Define Financials Basics/Parallel Currency for more information.\f0\par
+}"
+lblCodePart;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the code part on which the currency balances should be based. Any of the code parts \b B\b0  to \b J\b0  can be used, if they are not connected to a code part function in the source template/company. If the source template/company already has a code part selected for currency balance, that code part will be displayed and is not possible to modify.\par
+}"
+lblCurrBalCodePart;UNUSED;""
+lblCurrBalHeader;UNUSED;""
+lblInternalName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The internal name for the selected code part is displayed, but can be modified. If the source template/company already has a code part selected for currency balance, the internal name which is displayed cannot be modified.\par
+}"
+rbCopyCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Select this option if you want the company to be created based on information on an existing company.\f0\par
+}"
+rbImportTemplate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Specifies that a Company Template should be used as source for user-related data.\par
+}"
+rbNo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this radio button if the company should not be set up for Currency Balance. This option is selected by default if the company you are creating has the checkbox \b Master Company for Group Consolidation\b0  selected. Note that it\rquote s still possible to set up the company for Currency Balance later in the \b\i Define Code String\b0\i0  window.\par
+}"
+rbSourceTemplateCompany;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this option is selected, the accounting calendar for the company will be created either from information in a company template or an existing company, depending on the earlier selected company's creation method. \f0\par
+}"
+rbUserDefined;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This option allows you to define the start and end point of your accounting calendar. If selected, the accounting calendar for the company will be created based on the values entered in the \b First Accounting Year\b0 , \b Start from Year-Month\b0  and \b Number of Years\b0  fields. The Fixed Assets calendar for your company will be identically created.\f0\par
+}"
+rbYes;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select this radio button if the company should be set up for Currency Balance (recommended). This option is selected by default if the company you are creating hasn\rquote t the checkbox \b Master Company for Group Consolidation\b0  selected.\par
+}"

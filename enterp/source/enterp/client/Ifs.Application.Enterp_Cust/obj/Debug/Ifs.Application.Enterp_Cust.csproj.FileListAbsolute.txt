@@ -1,0 +1,9 @@
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\bin\Debug\Ifs.Application.Enterp_Cust.dll
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\bin\Debug\Ifs.Application.Enterp_Cust.pdb
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.csprojResolveAssemblyReference.cache
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.dlgLchChangePassword.resources
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.tbwLchEmployee.resources
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.Properties.Resources.resources
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.csproj.GenerateResource.Cache
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.dll
+D:\Demo\DemoProject\workspace\enterp\source\enterp\client\Ifs.Application.Enterp_Cust\obj\Debug\Ifs.Application.Enterp_Cust.pdb

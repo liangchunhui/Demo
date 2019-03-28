@@ -1,0 +1,53 @@
+groupBox1;UNUSED;""
+labelConsentGiven;UNUSED;""
+labelIdentity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 T\f0 he i\f0 dentifier of the data subject.\par
+}"
+labelIdentityName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the data subject.\f0\par
+}"
+labelRemark;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Comments regarding the change of data processing purposes.\f0\par
+}"
+labelUpdateDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date when data processing purposes changed for the selected data subject.\f0\par
+}"
+rbNewConsent;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , it will be possible to update the current set of data processing purposes.\par
+\b\f0 WARNING:\b0\f0  Once confirmed, this option might result in irreversible data removal or data anonymization.\par
+}"
+rbNoConsent;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , all purposes for storage and processing of personal data will be withdrawn.\par
+\b WARNING:\b0  Once confirmed, this option will result in irreversible data removal or data anonymization.\f0\par
+}"
+rbShowSelected;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b Selected\b0 , it will be only possible to view details of the record selected in the \b Update History\b0  table.\f0\par
+}"
+tblDataProcessPurpose_coldEffectiveOn;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date from which the purpose for storing personal data is valid.\f0\par
+}"
+tblDataProcessPurpose_coldEffectiveUntil;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date \f0 until\f0  which the purpose for storing personal data is valid.\par
+\f0\par
+}"
+tblDataProcessPurpose_colnPurposeId;UNUSED;""
+tblDataProcessPurpose_colsDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 A detailed description of why personal data has to be stored and processed. It has to refer to the relevant legal basis for data processing.\f0\par
+}"
+tblDataProcessPurpose_colsPurposeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The purpose for which personal data has to be stored and procesed.\f0\par
+}"
+tblDataProcessPurpose_colsPurposePersonalDataList;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The list of personal data connected to the data processing purpose.\f0\par
+}"
+tblDataProcessPurpose_colsValid;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b\f0 selected\b0\f0  and the information refers to an action of updating purposes in the \b\f0 Update History\b0\f0  table, the purpose for processing personal data is valid.\par
+If \b\f0 selected\b0\f0  and the information refers to an action of data erasure in the \b\f0 Update History\b0\f0  table, the purpose for processing personal data has been withdrawn.\par
+}"
+tblUpdateHistory_coldOperationDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date when the operation specified in the \b Action\b0  field was performed.\f0\par
+}"
+tblUpdateHistory_coldUpdateDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date when data processing purposes changed for the selected data subject.\f0\par
+}"
+tblUpdateHistory_colsAction;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Action that was performed in the personal data management system.\f0\par
+}"
+tblUpdateHistory_colsActionDb;UNUSED;""
+tblUpdateHistory_colsDataSubject;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Business Object in IFS Applications classified as a possible "Data Subject" (according to Personal Data Protection legislation). Data Subjects are natural persons who can be identified, directly or indirectly, by ID, location online identifier or one or more physical factors (physical, physiological, genetic, mental, economic, cultural, or social identity).\f0\par
+}"
+tblUpdateHistory_colsDataSubjectDb;UNUSED;""
+tblUpdateHistory_colsDataSubjectId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 T\f0 he i\f0 dentifier of the data subject.\par
+}"
+tblUpdateHistory_colsKeyRef;UNUSED;""
+tblUpdateHistory_colsLastUpdateAction;UNUSED;""
+tblUpdateHistory_colsPerformedBy;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identifier of the application user responsible for the action.\f0\par
+}"
+tblUpdateHistory_colsRemark;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Comments regarding the change of data processing purposes.\f0\par
+}"
+tblUpdateHistory_colsSelected;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Indicates which row supplies data to the \b Data Processing Purposes\b0  table.\f0\par
+}"

@@ -1,0 +1,10 @@
+colsDefaultSupplier;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is the user's default B2B Supplier.\par
+}"
+colsFndUser_GetDescription;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the selected User.\par
+}"
+colsSupplierId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the B2B Supplier. Select a value from the List of Values.\par
+}"
+colsSupplierInfo_GetName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Name of the B2B Supplier. The value is automatically retrieved when the supplier identification is selected.\par
+}"
+colsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the B2B User. This is the same identity that the user requires to log into IFS Applications. Select a value from List of Values.\par
+}"

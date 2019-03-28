@@ -1,0 +1,12 @@
+labelcmbCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate country from the drop down list. The country you choose  has no practical meaning in the Enterprise component. It is only dependent on how other installed modules utilize it. The IFS/Accounting Rules component is one example. Some posting types can be governed depending on the choice of country. The available countries are those marked as Used in Application in the \b\i ISO Cod\f0 e Usage\f0 /Country\b0\i0  tab. Contact your System Administrator if a country you want to use is not visible. It is possible to change the country after saving.\par
+}"
+labelcmbDefaultLanguage;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this column you enter the language you want for the tax office. Which language you enter for a tax office has no practical meaning in the Enterprise component. It's only dependent of how other installed components want to use it. You can name the IFS/Invoice component as an example. The choice of language in the corresponding field in the \i Customer\i0  window, can decide the language used printing an invoice. Which languages you can select are depending on which ones have been selected in the \b\i ISO Code Usage/Language\b0\i0  \f0 tab\f0 . Contact your System Administrator if you are missing a language you want to use. If you want, you can edit this field after saving the record.\par
+}"
+labelcmbTaxOfficeId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the identity number of the tax office in this field. If you want to change or enter new information on a previously entered tax office in this window, click on \b Populate\b0  or \b Query\b0  Dialog to retrieve it.\par
+}"
+labeldfdCreationDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date on which the record was created. This value is set automatically when the record is created. This field cannot be updated.\f0\par
+
+
+}"
+labeldfsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter a description of the tax office name in the Tax Office ID field. If you want to change or enter new information about a previously entered tax office in this window, you can click on Populate or Query Dialog to search for it.\par
+}"

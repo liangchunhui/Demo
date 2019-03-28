@@ -1,0 +1,69 @@
+-----------------------------------------------------------------------------
+--
+--  Logical unit: LchEmployee
+--  Type:         Entity
+--  Component:    ENTERP
+--
+--  Template:     3.0
+--  Built by:     IFS Developer Studio
+--
+--  Purpose:      Database create script
+--
+--  NOTE! Do not edit!! This file is completely generated and will be
+--        overwritten next time the corresponding model is saved.
+-----------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------
+-------------------- TABLE DEFINITIONS --------------------------------------
+-----------------------------------------------------------------------------
+
+DECLARE
+   table_name_ VARCHAR2(30) := 'LCH_EMPLOYEE_TAB';
+   columns_    Database_SYS.ColumnTabType;
+   column_     Database_SYS.ColRec;
+BEGIN
+   Database_SYS.Reset_Column_Table(columns_);
+   Database_SYS.Set_Table_Column(columns_, 'EMPLOYEE_ID', 'VARCHAR2(20)', 'N');
+   Database_SYS.Set_Table_Column(columns_, 'EMPLOYEE_NAME', 'VARCHAR2(20)', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'LOGIN_NAME', 'VARCHAR2(20)', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'LOGIN_PASSWORD', 'VARCHAR2(20)', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'BIRTHDAY', 'DATE', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'AGE', 'NUMBER', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'SEX', 'VARCHAR2(2)', 'Y');
+   Database_SYS.Set_Table_Column(columns_, 'ROWVERSION', 'DATE', 'N');
+   Database_SYS.Set_Table_Column(columns_, 'ROWKEY', 'VARCHAR2(50)', 'N', 'sys_guid()');
+   Database_SYS.Create_Or_Replace_Table(table_name_, columns_, '&IFSAPP_DATA', NULL, TRUE);
+END;
+/
+
+
+-----------------------------------------------------------------------------
+-------------------- INDEX DEFINITIONS --------------------------------------
+-----------------------------------------------------------------------------
+
+DECLARE
+   index_name_ VARCHAR2(30) := 'LCH_EMPLOYEE_PK';
+   table_name_ VARCHAR2(30) := 'LCH_EMPLOYEE_TAB';
+   columns_    Database_SYS.ColumnTabType;
+BEGIN
+   Database_SYS.Reset_Column_Table(columns_);
+   Database_SYS.Set_Table_Column(columns_, 'EMPLOYEE_ID');
+   Database_SYS.Create_Constraint(table_name_, index_name_, columns_, 'P', '&IFSAPP_INDEX', NULL, TRUE, TRUE);
+END;
+/
+
+
+DECLARE
+   index_name_ VARCHAR2(30) := 'LCH_EMPLOYEE_RK';
+   table_name_ VARCHAR2(30) := 'LCH_EMPLOYEE_TAB';
+   columns_    Database_SYS.ColumnTabType;
+BEGIN
+   Database_SYS.Reset_Column_Table(columns_);
+   Database_SYS.Set_Table_Column(columns_, 'ROWKEY');
+   Database_SYS.Create_Constraint(table_name_, index_name_, columns_, 'U', '&IFSAPP_INDEX', NULL, TRUE, TRUE);
+END;
+/
+
+

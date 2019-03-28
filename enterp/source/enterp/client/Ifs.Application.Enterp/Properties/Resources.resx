@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TEXT_DefaultEdit" xml:space="preserve">
+    <value>The address edit layout will be reset to default. Are you sure you want to continue?</value>
+  </data>
+  <data name="LAYOUT_C4" xml:space="preserve">
+    <value>City - Column</value>
+  </data>
+  <data name="LAYOUT_C7" xml:space="preserve">
+    <value>Country Code - Column</value>
+  </data>
+  <data name="WH_tbwCustomer" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="WH_CompanyTranslation" xml:space="preserve">
+    <value>Company Attribute Translations</value>
+  </data>
+  <data name="HEAD_OverviewPersonInfo" xml:space="preserve">
+    <value>Persons</value>
+  </data>
+  <data name="HEAD_OverviewCustomerInfo" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="TEXT_CreatingIn" xml:space="preserve">
+    <value>Creating in</value>
+  </data>
+  <data name="TEXT_SuccessUpdateComments" xml:space="preserve">
+    <value>Company Successfully Updated with some Comments, check the Company Log.</value>
+  </data>
+  <data name="WH_CreateCompanyTemComp" xml:space="preserve">
+    <value>Company Template Component</value>
+  </data>
+  <data name="LAYOUT_W7" xml:space="preserve">
+    <value>Country Code - Width</value>
+  </data>
+  <data name="TEXT_DefAddressExt" xml:space="preserve">
+    <value>A default address ID already exists for &amp;0Address Type(s) for this time period. Do you want to set the current address ID as default instead?</value>
+  </data>
+  <data name="LAYOUT_C3" xml:space="preserve">
+    <value>Zip Code - Column</value>
+  </data>
+  <data name="TEXT_WarnSameAssocNo" xml:space="preserve">
+    <value>Another business partner with the same association number is already registered. Do you want to use the same Association No?</value>
+  </data>
+  <data name="TEXT_ParentComponent" xml:space="preserve">
+    <value>The Component ENTERP is not allowed to have any Parent Component.</value>
+  </data>
+  <data name="TEXT_SetDefault" xml:space="preserve">
+    <value>Are you sure you want to mark &amp;0 as the default template? ( The current default template will be de-selected.)</value>
+  </data>
+  <data name="TEXT_MonthTooSmallForAccYear" xml:space="preserve">
+    <value>The Start Month must be two or above when the Start Year is one less than the First Accounting Year.</value>
+  </data>
+  <data name="HEAD_OverviewManufacturerInfo" xml:space="preserve">
+    <value>Manufacturers</value>
+  </data>
+  <data name="TEXT_MergeFileReady" xml:space="preserve">
+    <value>The templates are merged.</value>
+  </data>
+  <data name="TEXT_DefautExists" xml:space="preserve">
+    <value>This is the default &amp;0Address Type(s) for &amp;1 &amp;2. If removed, there will be no default address for this Address Type(s). Do you want to continue?</value>
+  </data>
+  <data name="HEAD_PartyIdSeries" xml:space="preserve">
+    <value>Enterprise Identities Series</value>
+  </data>
+  <data name="TEXT_CreateDiffTemplate" xml:space="preserve">
+    <value>Create Diff Template</value>
+  </data>
+  <data name="WH_dlgLayoutFormat" xml:space="preserve">
+    <value>Layout Format</value>
+  </data>
+  <data name="TEXT_AccYearNotNull" xml:space="preserve">
+    <value>The First Accounting Year in the user defined calendar may not be empty.</value>
+  </data>
+  <data name="TEXT_CreatingCompany" xml:space="preserve">
+    <value>Creating Company</value>
+  </data>
+  <data name="HEAD_OverviewOwnerInfo" xml:space="preserve">
+    <value>Owners</value>
+  </data>
+  <data name="TEXT_NotPositiveYears" xml:space="preserve">
+    <value>The Number of Years for the user defined calendar must be positive.</value>
+  </data>
+  <data name="TEXT_Parallel" xml:space="preserve">
+    <value>Valid From Date must be specified for Parallel Accounting Currency.</value>
+  </data>
+  <data name="TEXT_NotAValidYear" xml:space="preserve">
+    <value>The number given for the Start Year is not valid.</value>
+  </data>
+  <data name="LAYOUT_W2" xml:space="preserve">
+    <value>Address2 - Width</value>
+  </data>
+  <data name="TEXT_ErrorExportEdit" xml:space="preserve">
+    <value>An error occured while exporting the address edit layout.</value>
+  </data>
+  <data name="TEXT_MergeWizWriteError" xml:space="preserve">
+    <value>The File name is invalid or write access denied.</value>
+  </data>
+  <data name="HEAD_DetailCompany" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="LAYOUT_R5" xml:space="preserve">
+    <value>State - Row</value>
+  </data>
+  <data name="HEAD_DetailCustomsInfo" xml:space="preserve">
+    <value>Customs</value>
+  </data>
+  <data name="LAYOUT_C6" xml:space="preserve">
+    <value>County - Column</value>
+  </data>
+  <data name="TEXT_ConfirmRemoveCompanyLog" xml:space="preserve">
+    <value>By removing the company log you will delete all the information logged when the company were created. Please confirm to delete!</value>
+  </data>
+  <data name="TEXT_TemplateFileImport" xml:space="preserve">
+    <value>Template File(s) Imported</value>
+  </data>
+  <data name="LAYOUT_W6" xml:space="preserve">
+    <value>County - Width</value>
+  </data>
+  <data name="TEXT_RenameTemplate" xml:space="preserve">
+    <value>The template &amp;0 is renamed to template &amp;1.</value>
+  </data>
+  <data name="TEXT_ErrorExportDisplay" xml:space="preserve">
+    <value>An error occured while exporting the address display layout.</value>
+  </data>
+  <data name="LAYOUT_R1" xml:space="preserve">
+    <value>Address1 - Row</value>
+  </data>
+  <data name="TEXT_Validate" xml:space="preserve">
+    <value>Not all mandatory fields are filled with values.</value>
+  </data>
+  <data name="TEXT_NoDiffTemplateCreated" xml:space="preserve">
+    <value>No Diff Template Created, no differences exist between Company and Update Source</value>
+  </data>
+  <data name="TEXT_TaxOficePartyType" xml:space="preserve">
+    <value>Tax Office</value>
+  </data>
+  <data name="LAYOUT_C2" xml:space="preserve">
+    <value>Address2 - Column</value>
+  </data>
+  <data name="LAYOUT_W4" xml:space="preserve">
+    <value>City - Width</value>
+  </data>
+  <data name="TEXT_UpdateIn" xml:space="preserve">
+    <value>Update in</value>
+  </data>
+  <data name="WH_frmPerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="LAYOUT_R7" xml:space="preserve">
+    <value>Country Code - Row</value>
+  </data>
+  <data name="TEXT_LogImportFile2" xml:space="preserve">
+    <value>The template files are imported with errors. Check Template Log Id:&amp;0</value>
+  </data>
+  <data name="TEXT_NoSuccess" xml:space="preserve">
+    <value>Company Created with Error, check the Company Log.</value>
+  </data>
+  <data name="HEAD_DetailCustomerInfo" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="TEXT_ImportFileNotAllowed" xml:space="preserve">
+    <value>You are not allowed to overwrite Company Template &amp;0. Import process will be aborted.</value>
+  </data>
+  <data name="TEXT_UpdateCompanyTranslationIn" xml:space="preserve">
+    <value>Updating in: &amp;0</value>
+  </data>
+  <data name="TEXT_Success" xml:space="preserve">
+    <value>Company Successfully Created.</value>
+  </data>
+  <data name="TEXT_SuccessUpdate" xml:space="preserve">
+    <value>Company Successfully Updated.</value>
+  </data>
+  <data name="TEXT_CustomsPartyType" xml:space="preserve">
+    <value>Customs</value>
+  </data>
+  <data name="TEXT_ErrorNullAddress" xml:space="preserve">
+    <value>To remove an Address line you have to enter 0 for value.</value>
+  </data>
+  <data name="TEXT_Wildcard" xml:space="preserve">
+    <value>Wildcards cannot be used for company name</value>
+  </data>
+  <data name="LAYOUT_R3" xml:space="preserve">
+    <value>Zip Code - Row</value>
+  </data>
+  <data name="TEXT_StartYearNotNull" xml:space="preserve">
+    <value>Start Year in the user defined calendar may not be empty.</value>
+  </data>
+  <data name="WH_tbwAddressCountries" xml:space="preserve">
+    <value>Address Setup per Country</value>
+  </data>
+  <data name="HEAD_CopyCustomer" xml:space="preserve">
+    <value>Copy Existing Customer</value>
+  </data>
+  <data name="TEXT_DeleteTempDiffTemplates" xml:space="preserve">
+    <value>Removal of Temporary Diff Templates will take place, may take a while</value>
+  </data>
+  <data name="TEXT_UpdateCompanyTranslation" xml:space="preserve">
+    <value>Update Translations for Company: &amp;0</value>
+  </data>
+  <data name="HEAD_DetailOwnerInfo" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="WH_frmSupplierInfoAddress" xml:space="preserve">
+    <value>Supplier Address Information</value>
+  </data>
+  <data name="TEXT_ScanFile" xml:space="preserve">
+    <value>Scanning the file &amp;0 for template attributes is completed</value>
+  </data>
+  <data name="TAB_NAME_CustomerInfoCommMethod" xml:space="preserve">
+    <value>Communication Methods</value>
+  </data>
+  <data name="WH_dlgChangeGlobalCompany" xml:space="preserve">
+    <value>Change Global Company</value>
+  </data>
+  <data name="LAYOUT_ColOffset" xml:space="preserve">
+    <value>Column Offset</value>
+  </data>
+  <data name="TEXT_NotWithinMonthRange" xml:space="preserve">
+    <value>The number given for the Start Month is not valid.</value>
+  </data>
+  <data name="TEXT_ErrorImportDisplay" xml:space="preserve">
+    <value>An error occured while importing the address display layout.</value>
+  </data>
+  <data name="TEXT_NoSuccessOpenLog" xml:space="preserve">
+    <value>Company Created with Error. Press Yes to open Company Log.</value>
+  </data>
+  <data name="TEXT_ExportCompTemplToFile" xml:space="preserve">
+    <value>Select destination folder</value>
+  </data>
+  <data name="TEXT_StartMonthNotNull" xml:space="preserve">
+    <value>The Start Month in the user defined calendar may not be empty.</value>
+  </data>
+  <data name="WH_Import" xml:space="preserve">
+    <value>Import Company Template File Assistant</value>
+  </data>
+  <data name="TEXT_ExportTemplToFile" xml:space="preserve">
+    <value>Creating Template File(s)</value>
+  </data>
+  <data name="WH_CreateCompanyTemDetail" xml:space="preserve">
+    <value>Company Template Detail</value>
+  </data>
+  <data name="WH_TemplateTranslation" xml:space="preserve">
+    <value>Template Attribute Translations</value>
+  </data>
+  <data name="TAB_NAME_CustomerInfoContact" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="WH_CreateCompanyTem" xml:space="preserve">
+    <value>Company Templates</value>
+  </data>
+  <data name="TEXT_NumberOfYearsNotNull" xml:space="preserve">
+    <value>The Number of Years in the user defined calendar may not be empty.</value>
+  </data>
+  <data name="LAYOUT_R6" xml:space="preserve">
+    <value>County - Row</value>
+  </data>
+  <data name="HEAD_OverviewForwarderInfo" xml:space="preserve">
+    <value>Forwarders</value>
+  </data>
+  <data name="TAB_NAME_SupplierInfoContact" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="WH_frmCustomer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="TITLE_ExportEditLayout" xml:space="preserve">
+    <value>Export Address Edit Layout</value>
+  </data>
+  <data name="TEXT_Valid" xml:space="preserve">
+    <value>Do you really want to mark template &amp;0 as a Valid template? This action will also change the version of each component in the template to the registered version. Note that this may cause 
+inconsistency related errors when using this template as source for the Create Company process.</value>
+  </data>
+  <data name="WH_tbwSupplier" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="WH_frmBranches" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="TEXT_ValidFromNotInCalendar" xml:space="preserve">
+    <value>The Valid From of the Accounting Currency is not within the user defined calendar.</value>
+  </data>
+  <data name="TEXT_Info" xml:space="preserve">
+    <value>The installed versions of the component/s &amp;0 do not fully support create company from template or company. Note that this may cause inconsistency related errors during the process.</value>
+  </data>
+  <data name="TEXT_TemplateCreated" xml:space="preserve">
+    <value>The template &amp;0 is created.</value>
+  </data>
+  <data name="TAB_NAME_SupplierInfoCommMethod" xml:space="preserve">
+    <value>Communication Methods</value>
+  </data>
+  <data name="TEXT_CopyTemplate" xml:space="preserve">
+    <value>The template &amp;0 is copied from template &amp;1.</value>
+  </data>
+  <data name="WH_frmPersonsPerCompany" xml:space="preserve">
+    <value>Persons per Company</value>
+  </data>
+  <data name="TEXT_FileNameMissing" xml:space="preserve">
+    <value>Template File Name Is Mandatory</value>
+  </data>
+  <data name="LAYOUT_RowOffset" xml:space="preserve">
+    <value>Row Offset</value>
+  </data>
+  <data name="WH_frmUserPrivRemoveCompany" xml:space="preserve">
+    <value>Users Privileged to Remove Company</value>
+  </data>
+  <data name="LAYOUT_Width" xml:space="preserve">
+    <value>Dialog - Width</value>
+  </data>
+  <data name="TEXT_UpdatingCompany" xml:space="preserve">
+    <value>Update Company</value>
+  </data>
+  <data name="HEAD_OverviewCustomsInfo" xml:space="preserve">
+    <value>Customs List</value>
+  </data>
+  <data name="QUESTION_NotAddDefaultSet" xml:space="preserve">
+    <value>There are more than one row for communication method &amp;0 and address ID &amp;1, but no Default per Method and Address selected. Do you want to continue?</value>
+  </data>
+  <data name="WH_frmCompany" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="LAYOUT_R4" xml:space="preserve">
+    <value>City - Row</value>
+  </data>
+  <data name="TITLE_ExportDisplayLayout" xml:space="preserve">
+    <value>Export Address Display Layout</value>
+  </data>
+  <data name="TEXT_ErrorImportEdit" xml:space="preserve">
+    <value>An error occured while importing the address edit layout.</value>
+  </data>
+  <data name="LAYOUT_W3" xml:space="preserve">
+    <value>Zip Code - Width</value>
+  </data>
+  <data name="TEXT_ConfirmRemoveCompany" xml:space="preserve">
+    <value>By removing the company You may loose all valuable information related to the Company. Please confirm to delete!</value>
+  </data>
+  <data name="WH_dlgAddCustContact" xml:space="preserve">
+    <value>Add Customer Contact</value>
+  </data>
+  <data name="TEXT_Finished" xml:space="preserve">
+    <value>This Company is already created use Update Company instead.</value>
+  </data>
+  <data name="TEXT_UserDefined" xml:space="preserve">
+    <value>User defined</value>
+  </data>
+  <data name="WH_Create" xml:space="preserve">
+    <value>Create Company Template Assistant</value>
+  </data>
+  <data name="TEXT_InvalidStartYear" xml:space="preserve">
+    <value>The Start from Year must be equal to First Accounting Year or one year less.</value>
+  </data>
+  <data name="TEXT_NotAValidAccYear" xml:space="preserve">
+    <value>The number given for the First Accounting Year is not valid.</value>
+  </data>
+  <data name="TEXT_NotSaved" xml:space="preserve">
+    <value>You have to save the Invoice Tab before entering records to Payment Tab</value>
+  </data>
+  <data name="QUESTION_NotMethDefaultSet" xml:space="preserve">
+    <value>There are more than one row for communication method &amp;0, but no Default per Method selected. Do you want to continue?</value>
+  </data>
+  <data name="TITLE_ImportEditLayout" xml:space="preserve">
+    <value>Import Address Edit Layout</value>
+  </data>
+  <data name="HEAD_DetailForwarderInfo" xml:space="preserve">
+    <value>Forwarder</value>
+  </data>
+  <data name="TEXT_ExportToFile" xml:space="preserve">
+    <value>The file(s) are created.</value>
+  </data>
+  <data name="TEXT_DefaultDisplay" xml:space="preserve">
+    <value>The address display layout will be reset to default. Are you sure you want to continue?</value>
+  </data>
+  <data name="TEXT_MergeTemplToFile" xml:space="preserve">
+    <value>Merge Template File</value>
+  </data>
+  <data name="TITLE_ImportDisplayLayout" xml:space="preserve">
+    <value>Import Address Display Layout</value>
+  </data>
+  <data name="WH_frmSupplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="TEXT_TemplateInfoMissing" xml:space="preserve">
+    <value>Template information missing</value>
+  </data>
+  <data name="TEXT_DiffAddrress1" xml:space="preserve">
+    <value>Address1 is different from Detail Address.</value>
+  </data>
+  <data name="WH_tbwTaxLiability" xml:space="preserve">
+    <value>Tax Liabilities</value>
+  </data>
+  <data name="TEXT_TemAccCurrInfoMissing" xml:space="preserve">
+    <value>Cannot create accounting currency &amp;0. Currency does not exist in template &amp;1</value>
+  </data>
+  <data name="LAYOUT_W5" xml:space="preserve">
+    <value>State - Width</value>
+  </data>
+  <data name="HEAD_OverviewCompany" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="HEAD_OverviewSupplierInfo" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="LAYOUT_C5" xml:space="preserve">
+    <value>State - Column</value>
+  </data>
+  <data name="TEXT_TemParallelCurrInfoMissing" xml:space="preserve">
+    <value>Cannot create parallel currency &amp;0. Currency does not exist in template &amp;1</value>
+  </data>
+  <data name="TEXT_RemoveCompany" xml:space="preserve">
+    <value>This Action will delete all records in database related to the company. Do you really need to delete all these data?</value>
+  </data>
+  <data name="LAYOUT_W1" xml:space="preserve">
+    <value>Address1 - Width</value>
+  </data>
+  <data name="HEAD_DetailManufacturerInfo" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="LAYOUT_C1" xml:space="preserve">
+    <value>Address1 - Column</value>
+  </data>
+  <data name="WH_dlgChangeCompany" xml:space="preserve">
+    <value>Change Company</value>
+  </data>
+  <data name="LAYOUT_R2" xml:space="preserve">
+    <value>Address2 - Row</value>
+  </data>
+  <data name="TEXT_NotThreeDigitsYears" xml:space="preserve">
+    <value>The Number of Years for the user defined calendar must be less than a hundred years.</value>
+  </data>
+  <data name="HEAD_AccessToPerson" xml:space="preserve">
+    <value>Access to Protected Persons</value>
+  </data>
+  <data name="TEXT_NoSuccessUpdateOpenLog" xml:space="preserve">
+    <value>Company Updated with Error. Press Yes to open Company Log.</value>
+  </data>
+  <data name="TEXT_AccCurrInfoMissing" xml:space="preserve">
+    <value>Cannot create accounting currency &amp;0. Currency does not exist in source company &amp;1</value>
+  </data>
+  <data name="TEXT_ImportFile" xml:space="preserve">
+    <value>The template &amp;0 is imported.</value>
+  </data>
+  <data name="TEXT_Activate" xml:space="preserve">
+    <value>Activate Remove Company for &amp;0 is finished.</value>
+  </data>
+  <data name="TEXT_ImportFileExist" xml:space="preserve">
+    <value>Company Template &amp;0 already exist. Do you want to replace the company template?</value>
+  </data>
+  <data name="TEXT_SourceCompTempl" xml:space="preserve">
+    <value>Source Company/Template</value>
+  </data>
+  <data name="TEXT_NoSuccessUpdate" xml:space="preserve">
+    <value>Company Updated with Error, check the Company Log.</value>
+  </data>
+  <data name="TEXT_LogImportFile" xml:space="preserve">
+    <value>The template &amp;0 is imported with errors. Check Template Log Id:&amp;1</value>
+  </data>
+  <data name="LAYOUT_Height" xml:space="preserve">
+    <value>Dialog - Height</value>
+  </data>
+  <data name="WH_tbwCompany" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="HEAD_DetailSupplierInfo" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="TEXT_CompanyTemplateImport" xml:space="preserve">
+    <value>Import Company Template</value>
+  </data>
+  <data name="TEXT_ParallelCurrInfoMissing" xml:space="preserve">
+    <value>Cannot create parallel currency &amp;0. Currency does not exist in source company &amp;1</value>
+  </data>
+  <data name="WH_CreateCompanyTemLu" xml:space="preserve">
+    <value>Company Template Lu</value>
+  </data>
+  <data name="HEAD_CopySupplier" xml:space="preserve">
+    <value>Copy Existing Supplier</value>
+  </data>
+  <data name="TEXT_FormOfBusiness" xml:space="preserve">
+    <value>The form of business ID &amp;0 is not valid for the country code &amp;1. Select a form of business that is connected to country code &amp;1 in the Forms of Business window.</value>
+  </data>
+  <data name="TEXT_NoPriviledge" xml:space="preserve">
+    <value>You do not have privileges to method 'Person_Company_Access_API.New' to complete the person creation process.</value>
+  </data>
+  <data name="TEXT_CommMethodExistARCContact" xml:space="preserve">
+    <value>It is not possible to change the communication method because it is connected to an AR customer contact entered in the Payment tab.</value>
+  </data>
+  <data name="TEXT_FormOfBusinessCustomer" xml:space="preserve">
+    <value>Changing the Country Code will remove the current Form of Business, as it is country specific. Use the Customer window to enter a new Form of Business which is valid for the new Country Code.</value>
+  </data>
+  <data name="TEXT_FormOfBusinessSupplier" xml:space="preserve">
+    <value>Changing the Country Code will remove the current Form of Business, as it is country specific. Use the Supplier window to enter a new Form of Business which is valid for the new Country Code.</value>
+  </data>
+  <data name="TEXT_CannotChangeValidFromDate" xml:space="preserve">
+    <value>Comm ID &amp;0 is connected to an AR customer contact entered in the Payment tab. Do you still want to modify Valid From date?</value>
+  </data>
+  <data name="TEXT_CannotChangeValidToDate" xml:space="preserve">
+    <value>Comm ID &amp;0 is connected to an AR customer contact entered in the Payment tab. Do you still want to modify Valid To date?</value>
+  </data>
+  <data name="TEXT_CannotChangeValidFromDateAp" xml:space="preserve">
+    <value>Comm ID &amp;0 is connected to an AP supplier contact entered in the Payment tab. Do you still want to modify Valid From date?</value>
+  </data>
+  <data name="TEXT_CannotChangeValidToDateAp" xml:space="preserve">
+    <value>Comm ID &amp;0 is connected to an AP supplier contact entered in the Payment tab. Do you still want to modify Valid To date?</value>
+  </data>
+  <data name="TEXT_CopyOneTimeIdentity" xml:space="preserve">
+    <value>Copying a One-Time partner identity will not include all the address information and communication methods that are connected to the source identity. Do you want to continue?</value>
+  </data>
+  <data name="TEXT_ParallelCurrBase" xml:space="preserve">
+    <value>Please Select a Value for Parallel Currency Base</value>
+  </data>
+  <data name="TAB_NAME_Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="TEXT_ParallelAccNext" xml:space="preserve">
+    <value>Parallel Currency is defined as same as the Accounting Currency. Do you want to continue?</value>
+  </data>
+  <data name="TAB_NAME_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="TEXT_CannotDelDelivAddr" xml:space="preserve">
+    <value>Cannot delete the delivery address type when an end customer is connected.</value>
+  </data>
+  <data name="TAB_NAME_Proj" xml:space="preserve">
+    <value>Customer Project</value>
+  </data>
+  <data name="TEXT_DelivAddrMustExist" xml:space="preserve">
+    <value>An end customer has been connected and you cannot change the delivery address type.</value>
+  </data>
+  <data name="TAB_NAME_ProjRepParam" xml:space="preserve">
+    <value>Project Reporting Parameter</value>
+  </data>
+  <data name="TEXT_ManyContactAddress" xml:space="preserve">
+    <value>More than one record exists for the same Manager. Please enter the Manager Customer Address or use the list of values to select a Manager.</value>
+  </data>
+  <data name="TAB_NAME_Purch" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="TEXT_InvalidOneTimeCustomer" xml:space="preserve">
+    <value>The One-Time check box for customer &amp;0 cannot be modified due to the existing information in &amp;1.</value>
+  </data>
+  <data name="TEXT_InvalidOneTimeSupplier" xml:space="preserve">
+    <value>The One-Time check box for supplier &amp;0 cannot be modified due to the existing information in &amp;1.</value>
+  </data>
+  <data name="TEXT_BlockForUse1" xml:space="preserve">
+    <value>The contact will be blocked for use as a new customer contact.
+Do you want to select the Blocked for Use in CRM box in Customer window for existing customer contacts?</value>
+  </data>
+  <data name="TEXT_UnBlockForUse1" xml:space="preserve">
+    <value>The contact will be allowed (i.e., un-blocked) for use as a new customer contact.
+Do you want to clear the Blocked for Use in CRM box in Customer window for existing customer contacts?</value>
+  </data>
+  <data name="TEXT_BlockForUse2" xml:space="preserve">
+    <value>The contact will be blocked for use as a new customer contact.</value>
+  </data>
+  <data name="TEXT_UnBlockForUse2" xml:space="preserve">
+    <value>The contact will be allowed (i.e., un-blocked) for use as a new customer contact.</value>
+  </data>
+  <data name="TEXT_NameLengthNotAllowed" xml:space="preserve">
+    <value>The maximum allowed length for Full Name is 100 characters. The concatenated value of First Name, Middle Name and Last Name exceeds the limit.</value>
+  </data>
+  <data name="TEXT_LastAddressType" xml:space="preserve">
+    <value>This is the last address type(s) for address identity &amp;0 of &amp;1 &amp;2. If removed, there will not be any address type(s) for this address ID. Do you want to continue?</value>
+  </data>
+  <data name="TITLE_ChangeCustomerCategory" xml:space="preserve">
+    <value>Change Customer Category</value>
+  </data>
+  <data name="TEXT_CustomerExist" xml:space="preserve">
+    <value>Customer &amp;0 already exists. Enter another value or leave the field blank in order to generate a customer ID automatically.</value>
+  </data>
+  <data name="ERROR_NotesExist" xml:space="preserve">
+    <value>Notes are entered by another user. Please reopen the window to view all notes.</value>
+  </data>
+  <data name="TEXT_BlockSuppContact" xml:space="preserve">
+    <value>The contact will be blocked for use as a new supplier contact.</value>
+  </data>
+  <data name="TEXT_UnblockSuppContact" xml:space="preserve">
+    <value>The contact will be allowed (i.e., un-blocked) for use as a new supplier contact.</value>
+  </data>
+  <data name="WH_dlgAddSuppContact" xml:space="preserve">
+    <value>Add Supplier Contact</value>
+  </data>
+  <data name="TEXT_CopiedError" xml:space="preserve">
+    <value>There were errors while synchronizing &amp;0. Do you want to refer basic data synchronization log for more details ?</value>
+  </data>
+  <data name="TEXT_PartiallyCopied" xml:space="preserve">
+    <value>Several &amp;0 were not synchronized to the target companies due to errors. Do you want to refer basic data synchronization log for more details ?</value>
+  </data>
+  <data name="TEXT_SuccessfullyCopied" xml:space="preserve">
+    <value>The selected &amp;0 were successfully synchronized to the target companies.</value>
+  </data>
+  <data name="TEXT_CustGroupNullNotAllowed" xml:space="preserve">
+    <value>A value in the Cust Stat Grp field is required for transferring order related data.</value>
+  </data>
+  <data name="TEXT_EndCustChanged" xml:space="preserve">
+    <value>The ship-via codes and delivery terms corresponding to the end customer's address identity &amp;0 will be used when saving the record.</value>
+  </data>
+  <data name="ERROR_TempCodePartNotAvailable" xml:space="preserve">
+    <value>Code part &amp;0 of template &amp;1 is not available or already occupied.</value>
+  </data>
+  <data name="ERROR_CompCodePartNotAvailable" xml:space="preserve">
+    <value>Code part &amp;0 of company &amp;1 is not available or already occupied.</value>
+  </data>
+  <data name="TEXT_ColumnValidTextValid" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="TEXT_ColumnValidTextWithdrawn" xml:space="preserve">
+    <value>Withdrawn</value>
+  </data>
+  <data name="TEXT_ConsentNew" xml:space="preserve">
+    <value>New Purpose Set</value>
+  </data>
+  <data name="TEXT_ConsentUpdate" xml:space="preserve">
+    <value>Update Purposes</value>
+  </data>
+  <data name="TEXT_DataPersonalConsentRevoke" xml:space="preserve">
+    <value>Updating purposes might result in removal of some personal data. Do you wish to continue?</value>
+  </data>
+  <data name="TEXT_PersonalDataManPropertyCode" xml:space="preserve">
+    <value>Add Personal Data Property Codes</value>
+  </data>
+  <data name="TEXT_ProcOfPersDataPurp" xml:space="preserve">
+    <value>Data Processing Purpose Configuration</value>
+  </data>
+  <data name="TEXT_ProcOfPersDataPurpFromPurp" xml:space="preserve">
+    <value>Purpose Configuration</value>
+  </data>
+  <data name="WH_dlgPersonalDataConsent" xml:space="preserve">
+    <value>Data Processing Purpose Management</value>
+  </data>
+  <data name="TEXT_DataPersonalConsentRevokeParams" xml:space="preserve">
+    <value>Updating purposes will result in removal of following personal data: &amp;0. Do you wish to continue?</value>
+  </data>
+</root>

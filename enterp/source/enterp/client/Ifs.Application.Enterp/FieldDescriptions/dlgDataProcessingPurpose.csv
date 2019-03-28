@@ -1,0 +1,8 @@
+labelDataProcessPurpose;UNUSED;""
+labelDataSubject;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Business Object in IFS Applications classified as a possible "Data Subject" (according to Personal Data Protection legislation). Data Subjects are natural persons who can be identified, directly or indirectly, by ID, location online identifier or one or more physical factors (physical, physiological, genetic, mental, economic, cultural, or social identity).\f0\par
+}"
+tblDataProcessPurpose_colnPurposeId;UNUSED;""
+tblDataProcessPurpose_colsPurposeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The purpose for which personal data has to be stored and procesed.\f0\par
+}"
+tblDataProcessPurpose_colsSelected;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b selected\b0 , it will be allowed to process currently configured personal data of the data subject for the selected purpose\f0\par
+}"

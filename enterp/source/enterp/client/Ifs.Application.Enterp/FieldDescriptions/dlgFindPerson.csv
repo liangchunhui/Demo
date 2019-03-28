@@ -1,0 +1,18 @@
+labeldfdsFirstName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The person's first name.\par
+}"
+labeldfdsLastName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The person's last name.\par
+}"
+tblFindPerson_colsContactCustomers;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If the person is used as a contact on a customer the customer ID is shown here. If the person is contact on more than one customer the customer ID\rquote s are distinguished with a ^ symbol.\par
+}"
+tblFindPerson_colsContactSuppliers;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If the person is used as a contact on a supplier the supplier ID is shown here. If the person is contact on more than one supplier the supplier ID\rquote s are distinguished with a ^ symbol.\par
+}"
+tblFindPerson_colsCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The Country Code column shows the official codes for the countries according to the international ISO Code list. All country codes from the international ISO Code list are preinstalled and can be marked for use. You cannot make any changes in this column.\par
+}"
+tblFindPerson_colsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Displays the name of the person.\par
+}"
+tblFindPerson_colsPersonId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the person.\par
+}"
+tblFindPerson_colsTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+tblFindPerson_colsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the user.\par
+}"

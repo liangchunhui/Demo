@@ -1,0 +1,14 @@
+labeldfsAssocNo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Enter an association number for the customer. A value in this field is optional. The association number is then linked to the customer identity. For some countries, this field can be validated according to national validation rules by using the \b\i Validation \f0 p\f0 er Company\b0\i0  window. If an error message is received, change the tax number to a correct one, according to the validation rule, or remove the validation item in the \b\i Validation \f0 p\f0 er Company\b0\i0  window.\par
+}"
+labeldfsCategory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The category of the customer\f0 . \f0 The category is automatically retrieved from the customer basic data.\par
+}"
+labeldfsIdentity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is the current Customer ID. A different ID can be selected from the List of Values.\par
+}"
+labeldfsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name of the customer. The name is automatically retrieved from the customer basic data.\par
+}"
+labeldfsNewCategory;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The category of the new customer.\f0  \f0 This field is mandatory.\par
+}"
+labeldfsNewIdentity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the customer that you want to create as a new customer. The new customer will be created based on the information of the selected existing customer.\par
+}"
+labeldfsNewName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is the name of the new customer. This field is mandatory.\par
+}"

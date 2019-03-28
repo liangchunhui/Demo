@@ -1,0 +1,19 @@
+colCompleted;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If \b selected\b0 , the data has been successfully removed/anonymized, \par
+If \b cleared\b0 , there was a problem during the data cleanup which can be viewed in the \b Error Message\b0  field.\par
+}"
+coldOperationDate;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date when the operation specified in the \b Action\b0  field was performed.\f0\par
+}"
+colnPersDataManagementId;UNUSED;""
+colnSeqNo;UNUSED;""
+colsAction;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Action that was performed in the personal data management system.\f0\par
+}"
+colsActionDb;UNUSED;""
+colsDataSubject;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Business Object in IFS Applications classified as a possible "Data Subject" (according to Personal Data Protection legislation). Data Subjects are natural persons who can be identified, directly or indirectly, by ID, location online identifier or one or more physical factors (physical, physiological, genetic, mental, economic, cultural, or social identity).\f0\par
+}"
+colsDataSubjectId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 T\f0 he i\f0 dentifier of the data subject.\par
+}"
+colsErrorMessage;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Provides information about what went wrong when data was removed/anonymized.\par
+}"
+colsKeyRef;UNUSED;""
+colsPersonalData;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The item\f0  classified as personal information stored in IFS Applications.\f0\par
+}"

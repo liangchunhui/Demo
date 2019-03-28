@@ -1,0 +1,111 @@
+cbDefaultDomain;UNUSED;""
+labelamlAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The display of the address.To add an address or edit an existing contents of this field, click the Edit Address icon to the right of the field. The country selected in the Country field determines how the address displays in this field as well as which address fields are available to you in the \b\i Address\b0\i0  edit window. If a State field is available in the address editing window, you can enter the state name or abbreviation directly into this field or select a state code from the List of Values. The State Codes are defined in \b\i States\b0\i0  window.\par
+}"
+labelcmbAddressId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this field, enter the identity of an address. The length of this identity depends on what has been entered in the \b\i System \f0 LU Values\f0 /Attribute Definition\b0\i0  function. In that function, you can specify the length of the identity up to a maximum of 50 characters. You are allowed to enter more than one address, i.e. several address identities. It is possible to connect each address identity to one or more address types. You cannot change the address identity after saving.\par
+}"
+labelcmbCountry;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate country from the drop down list. The country you choose  has no practical meaning in the Enterprise component. It is only dependent on how other installed modules utilize it. The IFS/Accounting Rules component is one example. Some posting types can be governed depending on the choice of country. The available countries are those marked as Used in Application in the \b\i ISO Cod\f0 e Usage\f0 /Country\b0\i0  tab. Contact your System Administrator if a country you want to use is not visible. It is possible to change the country after saving.\par
+}"
+labeldfdValidFrom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date from which this address should be valid. Note that different components within IFS Applications handle the validity interval in different ways, i.e., you may not be prevented from using the address even if the system date is outside the specified interval.\par
+}"
+labeldfdValidTo;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date up to which the address is valid. This date controls only the creation of a new record in the system for the supplier.\par
+}"
+labeldfsAddress1;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The first line of the address.\par
+}"
+labeldfsAddress2;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The second line of the address. Extra address field.\par
+}"
+labeldfsAddress3;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window. \f0\par
+\par
+}"
+labeldfsAddress4;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+\par
+}"
+labeldfsAddress5;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+}"
+labeldfsAddress6;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This is an additional text field in which the user can input address information. Entering a value for this field is optional. The way in which the address is printed/displayed depends on the entry for the relevant country in the \b Address Presentation\b0  window.\f0\par
+}"
+labeldfsCity;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The city part of the address.\par
+}"
+labeldfsCountryCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 In this field you can enter country codes. The countries you can select depend on what countries are defined to be used in the application in the \b\i\f0 I\f0 SO Code \f0 Usage\b0\f0 /\b Country\b0\i0  function within the Application Services component. Contact your System Administrator if you need to use additional countries.\par
+}"
+labeldfsCounty;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The county within the specified state. This field is automatically populated when you select the country code (which actually is a state-county combination).\par
+}"
+labeldfsEanLocation;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field is used when the supplier participates in EDI communication. The address ID used at supplier can be entered here, and will be used as reference between our address and supplier address when exchanging address information. This can also be used for dispatch, document, or payment address. If EAN location numbers are used, these should be entered in this field. When EDI messages are sent, this field becomes part of the message, and becomes the EDI equivalent of this address. This is normally used only for suppliers and customers. For more information, refer to the documentation for IFS/Customer Order and IFS/Purchasing components.\par
+}"
+labeldfsState;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The state used for the address.\par
+}"
+labeldfsZipCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the ZIP code of the address, if applicable.\par
+}"
+labelName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The specific supplier name for this address identity. A name in this field is only needed when the general name of the supplier is not valid for this address identity. The address specific supplier name is printed in documents which are sent to this address, and displayed for items connected to this address. The general name of the supplier is printed or displayed for items without a connection to a single address.\f0\par
+}"
+labelSupplierBranch;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is a free text field (with no validations) to enter the supplier's branch (business location). This will be linked with document address and with change of the document address in the invoices, connected supplier branch will be picked to the invoice.\par
+}"
+labeltblCommMethod;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The communication method for which the information in the row apply. An appropriate value can be selected from the list. Multiple records can be entered for a given communication method. The available communication methods are system defined and cannot be modified.\f0\par
+
+
+}"
+labeltblSupplierInfoContact;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field controls what default communication method values in Person/\b\i Comm. Method\b0\i0  tab should be shown in the fields such as \b Phone\b0 , \b Mobile\b0 , \b Fax\b0  etc. This field has no value by default, but it can be manually updated.\f0\par
+}"
+tblAddressType_colDefAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected this address will be used as the default address for the corresponding address type. The default address is automatically used in instances where no specific address ID is stated for the specific address type. The same address can be used as default for different address types. An address type can have more than one address as default as long as the valid from/valid to dates for the addresses do not overlap. This field can be edited after the record is saved.\f0\par
+ \par
+}"
+tblAddressType_colDefaultDomain;UNUSED;""
+tblAddressType_colsAddressId;UNUSED;""
+tblAddressType_colsAddressTypeCode;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The address type that you want to connect to the specified address. These address types are different for different party types. You can view the address types from \b\i Object Property\b0\i0  tab in the Application Base Setup/System Setup/\b\i System Definitions\b0\i0  window. The \b Property Name\b0  VALID_ADDR in the \b\i System Definitions\b0\i0  window is used to define the address types. You can modify the property values by selected system defined address types.\par
+\par
+If you want to connect the same address to multiple address types, enter all those address types in this field. You can have multiple addresses connected to one address type for a party type. Note that only one of them can be specified as a default address. You cannot edit this column, but you can remove and insert pre-defined address types.\f0\par
+}"
+tblAddressType_colsAddressTypeCodeDb;UNUSED;""
+tblAddressType_colsParty;UNUSED;""
+tblAddressType_colsSupplierId;UNUSED;""
+tblCommMethod_coldValidFromOld;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date from which this address should be valid. Note that different components within IFS Applications handle the validity interval in different ways, i.e., you may not be prevented from using the address even if the system date is outside the specified interval.\par
+}"
+tblCommMethod_coldValidToOld;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The date up to which the address is valid. This date controls only the creation of a new record in the system for the supplier.\par
+}"
+tblSupplierInfoContact_colAddressPrimary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the contact is the primary contact for the specified address ID. The check box can be selected only for one contact per supplier address.\f0\par
+}"
+tblSupplierInfoContact_colAddressSecondary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard If this check box is selected, the contact is the secondary contact for the specified address ID. The check box can be selected only for one contact per supplier address.\f0\par
+}"
+tblSupplierInfoContact_colNoteText;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is a free-text field of up to 2000 characters. Notes are object-linked text, but they are never printed like document texts; instead they function as your own notes and comments for internal reference only. A note can be used as a means of forwarding information to someone who will process the object later.\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressE_Mail;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 E-mail address\f0  entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\par
+\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressFax;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 fax\f0  number entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\par
+\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressIntercom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default intercom number entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the \b\i\f0 Person/Comm. Method\b0\i0\f0  tab.\par
+\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressMobile;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default mobile number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressPager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default pager number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressPhone;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default \f0 phone\f0  number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+tblSupplierInfoContact_colPersonInfoAddressWww;UNUSED;""
+tblSupplierInfoContact_colPersonInfoName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The name connected to the person ID. This value is retrieved from the person record in IFS/Enterprise. Any changes need to be performed in the person record.\f0\par
+}"
+tblSupplierInfoContact_colPersonInfoTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+tblSupplierInfoContact_colsConnectAllSuppAddrDb;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 If this check box is selected, it indicates that all the supplier addresses are connected to the specified contact.\f0\par
+}"
+tblSupplierInfoContact_colsContactAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard This field controls what default communication method values in Person/\b\i Comm. Method\b0\i0  tab should be shown in the fields such as \b Phone\b0 , \b Mobile\b0 , \b Fax\b0  etc. This field has no value by default, but it can be manually updated.\f0\par
+}"
+tblSupplierInfoContact_colsDepartment;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The department of the contact that he/she works at this \f0 supplier.\par
+}"
+tblSupplierInfoContact_colsMainRepresentativeId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The user responsible for the \f0 supplier\f0  contact.\f0\par
+}"
+tblSupplierInfoContact_colsMainRepresentativeName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the main representative.\par
+}"
+tblSupplierInfoContact_colsPersonId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The ID of the person you would like to register. This can be entered either manually or by selecting one from the List of Values. Only records that exist in IFS/Enterprise,\b\i Person\b0\i0  can be added this way. If you want to add a new person as a contact, use the right mouse button option \b Add Contact\b0  on the \b\i Contact\b0\i0  tab.\f0\par
+
+}"
+tblSupplierInfoContact_colsRole;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is a free text description of the role the contact has in the current context.\par
+}"
+tblSupplierInfoContact_colsSupplierAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the supplier address. If a contact person is to be connected to a single supplier address, a value should be entered in this field. The contact will then also be visible in IFS/Purchasing and  \b\i Supplier/Address/General Address Info\b0\i0  tab. No value is displayed in this field by default since the contact is regarded as a general supplier contact.\f0\par
+}"
+tblSupplierInfoContact_colsSupplierId;UNUSED;""
+tblSupplierInfoContact_colSupplierPrimary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This checkbox indicates that the contact is the primary contact for the supplier. Only one supplier primary contact can exist per supplier. This contact can if desired be connected to a specified supplier address.\par
+}"
+tblSupplierInfoContact_colSupplierSecondary;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This checkbox indicates that the contact is the secondary contact for the supplier. Only one supplier secondary contact can exist per supplier. This contact can if desired be connected to a specified supplier address.\par
+}"

@@ -1,0 +1,50 @@
+cbBlockForUseInCrm;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Indicates if this contact is blocked for use in CRM functionalities for the specified customer.\par
+}"
+cbCopyAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 By marking this check box after entering an address identity, the corresponding address information will be copied to the new or existing person\f0 .\f0\par
+}"
+labeldfsAddressId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The ID of the address. If a contact person is to be connected to a single address, a value should be entered in this field. The contact will then also be visible in IFS/Customer Order and the \b\i General Address Info\b0\i0  sub\f0  \f0 tab of Customer/\b\i Address\b0\i0  tab. No value is displayed in this field by default since the contact is regarded as a general customer contact.\par
+}"
+labeldfsCampaignInterest;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Campaign interests of the contact. You can select more than one value for this field. Campaign interests are defined in the \b\i\f0 CRM Basic Data\b0\i0\f0  window.\par
+}"
+labeldfsDecisionPowerType;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Contact's ability to take decisions.\par
+}"
+labeldfsDepartment;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The department of the contact that he/she works at this customer.\par
+}"
+labeldfsEmail;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The\f0  \f0 e-mail address of the new contact, if applicable.\par
+\par
+}"
+labeldfsFax;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The fax number of the new contact, if applicable.\f0\par
+\par
+}"
+labeldfsIntercom;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default intercom number entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the \b\i\f0 Person/Comm. Method\b0\i0\f0  tab.\par
+\par
+}"
+labeldfsManager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The manager of the contact in regard to this customer. The manager should be\f0  \f0 another contact of this customer.\par
+}"
+labeldfsManagerCustAddress;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The customer address ID of the manager.\par
+}"
+labeldfsManagerName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the manager.\f0  \f0 This field is automatically filled according to the value displayed \f0 in \f0 the \b Manager\b0  field. \f0\par
+}"
+labeldfsMessenger;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default messenger number entered on the Person record. If a contact address has been specified the default value for this number is shown. You can update an existing value in the Person/\b\i\f0 Comm. Method \b0\i0\f0 tab.\par
+}"
+labeldfsMobile;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The mobile number of the employee, if applicable.\f0\par
+\par
+}"
+labeldfsName;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The name of the contact person. A check will be done to find out if the specified name already exists or not, regardless of whether you have clicked \b OK\b0  or \b Find\b0 , in order to avoid duplicates. Possible matches will be shown in the bottom of the dialog box.\f0\par
+\par
+}"
+labeldfsPager;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default pager number entered on the Person\f0  record\f0 . If a contact address has been specified the default value for this address is shown. \f0 You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\f0\par
+}"
+labeldfsPersonalInterest;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Personal interests of the contact. You can select more than one value for this field. Personal interests are defined in the \b\i\f0 CRM Basic Data\b0\i0\f0  window.\par
+}"
+labeldfsPhone;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The phone number of the new contact, if applicable.\f0\par
+\par
+}"
+labeldfsRole;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The role of the contact in regard to this customer. You can select more than one value for this field. Contact Roles are defined in the \b\i\f0 Enterprise/Basic Data/ Contact Roles\b0\i0\f0  window.\par
+}"
+labeldfsTitle;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The persons title, e.g., Mr., Mrs. The use of the title field may vary.\par
+}"
+labeldfsWww;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The general default www address entered on the Person record. If a contact address has been specified the default value for this address is shown. You can update an existing value in the IFS/Enterprise,Person/Comm. Method tab.\par
+}"
+labelPersonId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The identity of the person.\par
+}"

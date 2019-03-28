@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FndNavigator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Legacy="false" Source="enterp\client\navigator-functional_cust.xml">
+  <FndNavigatorEntries>
+    <FndNavigatorEntry>
+      <Key>APPLICON_BASE_SETUP.ENTESE.LCHEEE</Key>
+      <Name>LCHEmployee</Name>
+      <Url />
+      <Type>Folder</Type>
+      <ParentKey>APPLICON_BASE_SETUP.ENTESE</ParentKey>
+      <Ordinal>10</Ordinal>
+    </FndNavigatorEntry>
+    <FndNavigatorEntry>
+      <Key>APPLICON_BASE_SETUP.ENTESE.LCHEEE.LCHEEE</Key>
+      <Name>LchEmployee</Name>
+      <Url>ifsapf:tbwLchEmployee</Url>
+      <Type>TableWindow</Type>
+      <ParentKey>APPLICON_BASE_SETUP.ENTESE.LCHEEE</ParentKey>
+      <Ordinal>100</Ordinal>
+    </FndNavigatorEntry>
+  </FndNavigatorEntries>
+  <FndShortcutItems />
+</FndNavigator>

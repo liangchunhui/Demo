@@ -1,0 +1,10 @@
+labeldfsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the user who entered the note is displayed.\par
+}"
+tblNotes_coldTimestamp;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The date and time at which the action was performed.\par
+}"
+tblNotes_colnNoteId;UNUSED;""
+tblNotes_colnRowNo;UNUSED;""
+tblNotes_colsUserId;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID of the user who entered the note is displayed.\par
+}"
+tblNotes_colText;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 This is a free-text field of up to 2000 characters. Notes are object-linked text, but they are never printed like document texts; instead they function as your own notes and comments for internal reference only. A note can be used as a means of forwarding information to someone who will process the object later.\par
+}"
