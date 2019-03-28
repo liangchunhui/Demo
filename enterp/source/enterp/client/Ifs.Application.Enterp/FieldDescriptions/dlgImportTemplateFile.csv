@@ -1,9 +1,0 @@
-labeldfHeading1;UNUSED;""
-labeldfHeading2;UNUSED;""
-labeldfHeading3;UNUSED;""
-labeldfHeading4;UNUSED;""
-labeldfHeading5;UNUSED;""
-labeldfsTemplateSuffix;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard Enter the template ID to make the Add dialog default to find template files according to the following: *<File suffix>*.ins. This field is optional.\par
-}"
-labellbFiles;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The list-box will display the Template files that are added and that will be imported\par
-}"

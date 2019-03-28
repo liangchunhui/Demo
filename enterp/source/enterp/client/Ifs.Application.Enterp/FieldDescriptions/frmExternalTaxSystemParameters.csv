@@ -1,9 +1,0 @@
-labelPasswordVertex;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The \f0 password\f0  used to login to Vertex when external tax calculation method \b Vertex Sales Tax O Series \b0 is selected. It is possible to either log in using username and password or using a trusted id provided by Vertex.\f0\par
-}"
-labelSequenceNumber;UNUSED;""
-labelTrustedIdVertex;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The \f0 trusted id \f0 used to login to Vertex when \f0 external tax calculation method\f0  \b Vertex Sales Tax O Series\f0  \b0 is selected\f0 . It is possible to either log in using username and password or using a trusted id provided by Vertex.\par
-}"
-labelUserNameVertex;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 The \f0 username \f0 used to login to Vertex when \f0 external tax calculation method\f0  \b Vertex Sales Tax O Series\f0  \b0 is selected\f0 . It is possible to either log in using username and password or using a trusted id provided by Vertex.\par
-}"
-labelVersionVertex;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard\f0 Select the appropriate version to use for\f0  \b Vertex Sales Tax O Series\b0\f0  from the drop down list. \par
-}"

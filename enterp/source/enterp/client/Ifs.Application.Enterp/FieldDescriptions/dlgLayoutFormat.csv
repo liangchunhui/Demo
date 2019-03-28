@@ -1,4 +1,0 @@
-labeldfsLayoutFormat;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The layout format to use for the tax ID numbers. For example, if you specify a layout format of XXX-X-XX and the tax number ID is 123456, the number will be formatted as 123-4-56.\par
-}"
-labeldfsTaxIdType;USED;"{\rtf1\ansi\ansicpg1252{\fonttbl{\f0}}\fs20\pard The ID for the tax type. You cannot change this value in this dialog box.\par
-}"
